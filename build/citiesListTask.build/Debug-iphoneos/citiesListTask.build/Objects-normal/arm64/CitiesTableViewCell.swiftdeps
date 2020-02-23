@@ -1,0 +1,581 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CitiesTableViewCell"
+provides-nominal:
+- "14citiesListTask19CitiesTableViewCellC"
+provides-member:
+- ["14citiesListTask19CitiesTableViewCellC", ""]
+provides-dynamic-lookup:
+- "cityNameLbl"
+- "cityStaticImageView"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CitiesTableViewCell"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MainCitiesCellView"
+- "String"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- !private "URL"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "URL"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "cityNameLbl"]
+- !private ["So15CALayerDelegateP", "cityStaticImageView"]
+- ["So15CALayerDelegateP", "displayCity"]
+- ["So15CALayerDelegateP", "displayedImage"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "kf"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cityNameLbl"]
+- !private ["s7CVarArgP", "cityStaticImageView"]
+- ["s7CVarArgP", "displayCity"]
+- ["s7CVarArgP", "displayedImage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kf"]
+- !private ["s7CVarArgP", "text"]
+- !private ["10Kingfisher19CacheCostCalculableP", "init"]
+- ["14citiesListTask19CitiesTableViewCellC", "String"]
+- !private ["14citiesListTask19CitiesTableViewCellC", "UIImage"]
+- ["14citiesListTask19CitiesTableViewCellC", "UIImageView"]
+- ["14citiesListTask19CitiesTableViewCellC", "UILabel"]
+- !private ["14citiesListTask19CitiesTableViewCellC", "URL"]
+- ["14citiesListTask19CitiesTableViewCellC", "cityNameLbl"]
+- ["14citiesListTask19CitiesTableViewCellC", "cityStaticImageView"]
+- ["14citiesListTask19CitiesTableViewCellC", "deinit"]
+- ["14citiesListTask19CitiesTableViewCellC", "displayCity"]
+- ["14citiesListTask19CitiesTableViewCellC", "displayedImage"]
+- ["14citiesListTask19CitiesTableViewCellC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cityNameLbl"]
+- !private ["s28CustomDebugStringConvertibleP", "cityStaticImageView"]
+- ["s28CustomDebugStringConvertibleP", "displayCity"]
+- ["s28CustomDebugStringConvertibleP", "displayedImage"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "kf"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "cityNameLbl"]
+- !private ["s23CustomStringConvertibleP", "cityStaticImageView"]
+- ["s23CustomStringConvertibleP", "displayCity"]
+- ["s23CustomStringConvertibleP", "displayedImage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "init"]
+- !private ["Se", "kf"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SE", "kf"]
+- !private ["SE", "text"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "cityNameLbl"]
+- !private ["SQ", "cityStaticImageView"]
+- ["SQ", "displayCity"]
+- ["SQ", "displayedImage"]
+- !private ["SQ", "init"]
+- !private ["SQ", "kf"]
+- !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "kf"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "cityNameLbl"]
+- !private ["SH", "cityStaticImageView"]
+- ["SH", "displayCity"]
+- ["SH", "displayedImage"]
+- !private ["SH", "init"]
+- !private ["SH", "kf"]
+- !private ["SH", "text"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kf"]
+- !private ["10Kingfisher0A7WrapperV", "setImage"]
+- !private ["14citiesListTask18MainCitiesCellViewP", "UIImage"]
+- !private ["14citiesListTask18MainCitiesCellViewP", "URL"]
+- ["14citiesListTask18MainCitiesCellViewP", ""]
+- !private ["14citiesListTask18MainCitiesCellViewP", "cityNameLbl"]
+- !private ["14citiesListTask18MainCitiesCellViewP", "cityStaticImageView"]
+- ["14citiesListTask18MainCitiesCellViewP", "displayCity"]
+- ["14citiesListTask18MainCitiesCellViewP", "displayedImage"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cityNameLbl"]
+- !private ["So8NSCodingP", "cityStaticImageView"]
+- ["So8NSCodingP", "displayCity"]
+- ["So8NSCodingP", "displayedImage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kf"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "cityNameLbl"]
+- ["So8NSObjectC", "cityStaticImageView"]
+- ["So8NSObjectC", "displayCity"]
+- ["So8NSObjectC", "displayedImage"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kf"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cityNameLbl"]
+- !private ["So8NSObjectP", "cityStaticImageView"]
+- ["So8NSObjectP", "displayCity"]
+- ["So8NSObjectP", "displayedImage"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kf"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "kf"]
+- !private ["Sq", "text"]
+- !private ["10Kingfisher11PlaceholderP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Kingfisher8ResourceP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "URL"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "cityNameLbl"]
+- !private ["So29UIAccessibilityIdentificationP", "cityStaticImageView"]
+- ["So29UIAccessibilityIdentificationP", "displayCity"]
+- ["So29UIAccessibilityIdentificationP", "displayedImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "URL"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "cityNameLbl"]
+- !private ["So12UIAppearanceP", "cityStaticImageView"]
+- ["So12UIAppearanceP", "displayCity"]
+- ["So12UIAppearanceP", "displayedImage"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "kf"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "cityNameLbl"]
+- !private ["So21UIAppearanceContainerP", "cityStaticImageView"]
+- ["So21UIAppearanceContainerP", "displayCity"]
+- ["So21UIAppearanceContainerP", "displayedImage"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "kf"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "URL"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "cityNameLbl"]
+- !private ["So17UICoordinateSpaceP", "cityStaticImageView"]
+- ["So17UICoordinateSpaceP", "displayCity"]
+- ["So17UICoordinateSpaceP", "displayedImage"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "kf"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "URL"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "cityNameLbl"]
+- !private ["So13UIDynamicItemP", "cityStaticImageView"]
+- ["So13UIDynamicItemP", "displayCity"]
+- ["So13UIDynamicItemP", "displayedImage"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "kf"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "cityNameLbl"]
+- !private ["So18UIFocusEnvironmentP", "cityStaticImageView"]
+- ["So18UIFocusEnvironmentP", "displayCity"]
+- ["So18UIFocusEnvironmentP", "displayedImage"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "kf"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "URL"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "cityNameLbl"]
+- !private ["So11UIFocusItemP", "cityStaticImageView"]
+- ["So11UIFocusItemP", "displayCity"]
+- ["So11UIFocusItemP", "displayedImage"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "kf"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "UIImage"]
+- !private ["So20UIFocusItemContainerP", "URL"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "cityNameLbl"]
+- !private ["So20UIFocusItemContainerP", "cityStaticImageView"]
+- ["So20UIFocusItemContainerP", "displayCity"]
+- ["So20UIFocusItemContainerP", "displayedImage"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "kf"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "URL"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "cityNameLbl"]
+- !private ["So27UIGestureRecognizerDelegateP", "cityStaticImageView"]
+- ["So27UIGestureRecognizerDelegateP", "displayCity"]
+- ["So27UIGestureRecognizerDelegateP", "displayedImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "kf"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "UIImage"]
+- !private ["So24UILargeContentViewerItemP", "URL"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "cityNameLbl"]
+- !private ["So24UILargeContentViewerItemP", "cityStaticImageView"]
+- ["So24UILargeContentViewerItemP", "displayCity"]
+- ["So24UILargeContentViewerItemP", "displayedImage"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "kf"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "cityNameLbl"]
+- !private ["So30UIPasteConfigurationSupportingP", "cityStaticImageView"]
+- ["So30UIPasteConfigurationSupportingP", "displayCity"]
+- ["So30UIPasteConfigurationSupportingP", "displayedImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "kf"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "cityNameLbl"]
+- ["So11UIResponderC", "cityStaticImageView"]
+- ["So11UIResponderC", "displayCity"]
+- ["So11UIResponderC", "displayedImage"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "kf"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "cityNameLbl"]
+- !private ["So30UIResponderStandardEditActionsP", "cityStaticImageView"]
+- ["So30UIResponderStandardEditActionsP", "displayCity"]
+- ["So30UIResponderStandardEditActionsP", "displayedImage"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "kf"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "String"]
+- !private ["So15UITableViewCellC", "UIImage"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- !private ["So15UITableViewCellC", "URL"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "cityNameLbl"]
+- ["So15UITableViewCellC", "cityStaticImageView"]
+- ["So15UITableViewCellC", "displayCity"]
+- ["So15UITableViewCellC", "displayedImage"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "cityNameLbl"]
+- !private ["So18UITraitEnvironmentP", "cityStaticImageView"]
+- ["So18UITraitEnvironmentP", "displayCity"]
+- ["So18UITraitEnvironmentP", "displayedImage"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "kf"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "cityNameLbl"]
+- !private ["So23UIUserActivityRestoringP", "cityStaticImageView"]
+- ["So23UIUserActivityRestoringP", "displayCity"]
+- ["So23UIUserActivityRestoringP", "displayedImage"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "kf"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "URL"]
+- ["So6UIViewC", "cityNameLbl"]
+- ["So6UIViewC", "cityStaticImageView"]
+- ["So6UIViewC", "displayCity"]
+- ["So6UIViewC", "displayedImage"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "kf"]
+- !private ["So6UIViewC", "text"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityNameLbl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityStaticImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayCity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayedImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityNameLbl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityStaticImageView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayCity"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayedImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "kf"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "URL"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "cityNameLbl"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "cityStaticImageView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayCity"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "displayedImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "kf"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Kingfisher19CacheCostCalculableP"
+- "14citiesListTask19CitiesTableViewCellC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "10Kingfisher0A7WrapperV"
+- "14citiesListTask18MainCitiesCellViewP"
+- "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "10Kingfisher11PlaceholderP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlusCode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceFieldMask.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteSessionToken.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLocationOptions.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSOpeningHours.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7e3dea2c7a62769e6f40f826312eda86"

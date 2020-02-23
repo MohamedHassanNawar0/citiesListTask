@@ -1,0 +1,6 @@
+framework module Pods_citiesListTask {
+  umbrella header "Pods-citiesListTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

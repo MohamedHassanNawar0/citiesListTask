@@ -28,12 +28,9 @@ extension MainCitiesListVC: UITableViewDataSource, UITableViewDelegate {
             presenter.didSelectCityRow(index: indexPath.row)
     }
         func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-            guard self.searchBar.text == "" else {return}
-            
             if indexPath.row == (presenter.getCitiesListCount()) - 1  {
                 presenter.didReachEndOfTableView()
             }
         }
-        
     }
 

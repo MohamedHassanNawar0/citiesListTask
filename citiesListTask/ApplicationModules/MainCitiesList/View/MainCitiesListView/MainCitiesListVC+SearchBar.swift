@@ -21,10 +21,10 @@ extension MainCitiesListVC: UISearchBarDelegate {
     // click to search button
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
-//        presenter.didPressSearch(name: searchBar.text!)
+        presenter.searchBarSearchButtonClicked()
     }
     // get new data while changing data
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        presenter.SearchBarTextChanged(text: searchBar.text!)
+        presenter.SearchBarTextChanged(text: searchBar.text!)
     }
 }

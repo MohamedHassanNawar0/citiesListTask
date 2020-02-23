@@ -51,6 +51,7 @@ class MainCitiesListInteractor: APIServiceGetCitiesListProtocol {
                    }
             completionHundler(citiesList, nil)
             }catch{
+                print(error.localizedDescription)
                 completionHundler(nil, error.localizedDescription)
         }
     }

@@ -1,0 +1,778 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So8UITabBarC", ""]
+- ["So11UITextFieldC", ""]
+- ["So6UIViewC", "shadow"]
+- ["So6UIViewC", "addShadow"]
+- ["So6UIViewC", "cornerRadius"]
+- ["So6UIViewC", "borderWidth"]
+- ["So6UIViewC", "borderColor"]
+- ["So6UIViewC", "shadowRadius"]
+- ["So6UIViewC", "shadowOpacity"]
+- ["So6UIViewC", "shadowOffset"]
+- ["So6UIViewC", "shadowColor"]
+- ["So8UITabBarC", "sizeThatFits"]
+- ["So11UITextFieldC", "placeHolderColor"]
+provides-dynamic-lookup:
+- "borderColor"
+- "borderWidth"
+- "cornerRadius"
+- "placeHolderColor"
+- "shadow"
+- "shadowColor"
+- "shadowOffset"
+- "shadowOpacity"
+- "shadowRadius"
+- "sizeThatFits"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGColor"
+- "CGFloat"
+- "CGSize"
+- "CastingPrecedence"
+- "Float"
+- !private "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "NSAttributedString"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIColor"
+- "UITabBar"
+- "UITextField"
+- "UIView"
+- !private "kCTForegroundColorAttributeName"
+depends-member:
+- !private ["So7CALayerC", "borderColor"]
+- !private ["So7CALayerC", "borderWidth"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So7CALayerC", "shadowColor"]
+- !private ["So7CALayerC", "shadowOffset"]
+- !private ["So7CALayerC", "shadowOpacity"]
+- !private ["So7CALayerC", "shadowRadius"]
+- !private ["So15CALayerDelegateP", "CGSize"]
+- !private ["So15CALayerDelegateP", "NSAttributedString"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "addShadow"]
+- !private ["So15CALayerDelegateP", "attributedPlaceholder"]
+- !private ["So15CALayerDelegateP", "kCTForegroundColorAttributeName"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "placeHolderColor"]
+- !private ["So15CALayerDelegateP", "placeholder"]
+- !private ["So15CALayerDelegateP", "sizeThatFits"]
+- !private ["So13CAMediaTimingP", "borderColor"]
+- !private ["So13CAMediaTimingP", "borderWidth"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["So13CAMediaTimingP", "shadowColor"]
+- !private ["So13CAMediaTimingP", "shadowOffset"]
+- !private ["So13CAMediaTimingP", "shadowOpacity"]
+- !private ["So13CAMediaTimingP", "shadowRadius"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "addShadow"]
+- !private ["s7CVarArgP", "attributedPlaceholder"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "borderColor"]
+- !private ["s7CVarArgP", "borderWidth"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCTForegroundColorAttributeName"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "placeHolderColor"]
+- !private ["s7CVarArgP", "placeholder"]
+- !private ["s7CVarArgP", "shadowColor"]
+- !private ["s7CVarArgP", "shadowOffset"]
+- !private ["s7CVarArgP", "shadowOpacity"]
+- !private ["s7CVarArgP", "shadowRadius"]
+- !private ["s7CVarArgP", "sizeThatFits"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "addShadow"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedPlaceholder"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "borderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "borderWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCTForegroundColorAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "placeHolderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "placeholder"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowColor"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOpacity"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "sizeThatFits"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "addShadow"]
+- !private ["s23CustomStringConvertibleP", "attributedPlaceholder"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "borderColor"]
+- !private ["s23CustomStringConvertibleP", "borderWidth"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCTForegroundColorAttributeName"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "placeHolderColor"]
+- !private ["s23CustomStringConvertibleP", "placeholder"]
+- !private ["s23CustomStringConvertibleP", "shadowColor"]
+- !private ["s23CustomStringConvertibleP", "shadowOffset"]
+- !private ["s23CustomStringConvertibleP", "shadowOpacity"]
+- !private ["s23CustomStringConvertibleP", "shadowRadius"]
+- !private ["s23CustomStringConvertibleP", "sizeThatFits"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "Key"]
+- !private ["SQ", "NSAttributedString"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "addShadow"]
+- !private ["SQ", "attributedPlaceholder"]
+- !private ["SQ", "black"]
+- !private ["SQ", "borderColor"]
+- !private ["SQ", "borderWidth"]
+- !private ["SQ", "cgColor"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "kCTForegroundColorAttributeName"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "placeHolderColor"]
+- !private ["SQ", "placeholder"]
+- !private ["SQ", "shadowColor"]
+- !private ["SQ", "shadowOffset"]
+- !private ["SQ", "shadowOpacity"]
+- !private ["SQ", "shadowRadius"]
+- !private ["SQ", "sizeThatFits"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "Key"]
+- !private ["SH", "NSAttributedString"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "addShadow"]
+- !private ["SH", "attributedPlaceholder"]
+- !private ["SH", "black"]
+- !private ["SH", "borderColor"]
+- !private ["SH", "borderWidth"]
+- !private ["SH", "cgColor"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "init"]
+- !private ["SH", "kCTForegroundColorAttributeName"]
+- !private ["SH", "layer"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "placeHolderColor"]
+- !private ["SH", "placeholder"]
+- !private ["SH", "shadowColor"]
+- !private ["SH", "shadowOffset"]
+- !private ["SH", "shadowOpacity"]
+- !private ["SH", "shadowRadius"]
+- !private ["SH", "sizeThatFits"]
+- !private ["10Kingfisher0A15CompatibleValueP", "height"]
+- !private ["10Kingfisher0A15CompatibleValueP", "init"]
+- !private ["So18NSAttributedStringC", "Key"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "Key"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "addShadow"]
+- !private ["So8NSCodingP", "attributedPlaceholder"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "borderColor"]
+- !private ["So8NSCodingP", "borderWidth"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kCTForegroundColorAttributeName"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "placeHolderColor"]
+- !private ["So8NSCodingP", "placeholder"]
+- !private ["So8NSCodingP", "shadowColor"]
+- !private ["So8NSCodingP", "shadowOffset"]
+- !private ["So8NSCodingP", "shadowOpacity"]
+- !private ["So8NSCodingP", "shadowRadius"]
+- !private ["So8NSCodingP", "sizeThatFits"]
+- !private ["So9NSCopyingP", "Key"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "Key"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "Key"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "Key"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGColor"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Key"]
+- !private ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "addShadow"]
+- !private ["So8NSObjectC", "attributedPlaceholder"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "borderColor"]
+- ["So8NSObjectC", "borderWidth"]
+- !private ["So8NSObjectC", "cgColor"]
+- ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCTForegroundColorAttributeName"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- ["So8NSObjectC", "placeHolderColor"]
+- !private ["So8NSObjectC", "placeholder"]
+- ["So8NSObjectC", "shadow"]
+- ["So8NSObjectC", "shadowColor"]
+- ["So8NSObjectC", "shadowOffset"]
+- ["So8NSObjectC", "shadowOpacity"]
+- ["So8NSObjectC", "shadowRadius"]
+- ["So8NSObjectC", "sizeThatFits"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "Key"]
+- !private ["So8NSObjectP", "NSAttributedString"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "addShadow"]
+- !private ["So8NSObjectP", "attributedPlaceholder"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "borderColor"]
+- !private ["So8NSObjectP", "borderWidth"]
+- !private ["So8NSObjectP", "cgColor"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kCTForegroundColorAttributeName"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "placeHolderColor"]
+- !private ["So8NSObjectP", "placeholder"]
+- !private ["So8NSObjectP", "shadowColor"]
+- !private ["So8NSObjectP", "shadowOffset"]
+- !private ["So8NSObjectP", "shadowOpacity"]
+- !private ["So8NSObjectP", "shadowRadius"]
+- !private ["So8NSObjectP", "sizeThatFits"]
+- !private ["So14NSSecureCodingP", "Key"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "borderColor"]
+- !private ["So14NSSecureCodingP", "borderWidth"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "shadowColor"]
+- !private ["So14NSSecureCodingP", "shadowOffset"]
+- !private ["So14NSSecureCodingP", "shadowOpacity"]
+- !private ["So14NSSecureCodingP", "shadowRadius"]
+- !private ["So29UIAccessibilityIdentificationP", "CGSize"]
+- !private ["So29UIAccessibilityIdentificationP", "NSAttributedString"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "addShadow"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedPlaceholder"]
+- !private ["So29UIAccessibilityIdentificationP", "kCTForegroundColorAttributeName"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "placeHolderColor"]
+- !private ["So29UIAccessibilityIdentificationP", "placeholder"]
+- !private ["So29UIAccessibilityIdentificationP", "sizeThatFits"]
+- !private ["So12UIAppearanceP", "CGSize"]
+- !private ["So12UIAppearanceP", "NSAttributedString"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "addShadow"]
+- !private ["So12UIAppearanceP", "attributedPlaceholder"]
+- !private ["So12UIAppearanceP", "kCTForegroundColorAttributeName"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "placeHolderColor"]
+- !private ["So12UIAppearanceP", "placeholder"]
+- !private ["So12UIAppearanceP", "sizeThatFits"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "addShadow"]
+- !private ["So21UIAppearanceContainerP", "attributedPlaceholder"]
+- !private ["So21UIAppearanceContainerP", "kCTForegroundColorAttributeName"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "placeHolderColor"]
+- !private ["So21UIAppearanceContainerP", "placeholder"]
+- !private ["So21UIAppearanceContainerP", "sizeThatFits"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "NSAttributedString"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedPlaceholder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "kCTForegroundColorAttributeName"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "placeHolderColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "placeholder"]
+- !private ["So9UIControlC", "NSAttributedString"]
+- ["So9UIControlC", "UIColor"]
+- !private ["So9UIControlC", "attributedPlaceholder"]
+- !private ["So9UIControlC", "kCTForegroundColorAttributeName"]
+- ["So9UIControlC", "placeHolderColor"]
+- !private ["So9UIControlC", "placeholder"]
+- !private ["So17UICoordinateSpaceP", "CGSize"]
+- !private ["So17UICoordinateSpaceP", "NSAttributedString"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "addShadow"]
+- !private ["So17UICoordinateSpaceP", "attributedPlaceholder"]
+- !private ["So17UICoordinateSpaceP", "kCTForegroundColorAttributeName"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "placeHolderColor"]
+- !private ["So17UICoordinateSpaceP", "placeholder"]
+- !private ["So17UICoordinateSpaceP", "sizeThatFits"]
+- !private ["So13UIDynamicItemP", "CGSize"]
+- !private ["So13UIDynamicItemP", "NSAttributedString"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "addShadow"]
+- !private ["So13UIDynamicItemP", "attributedPlaceholder"]
+- !private ["So13UIDynamicItemP", "kCTForegroundColorAttributeName"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "placeHolderColor"]
+- !private ["So13UIDynamicItemP", "placeholder"]
+- !private ["So13UIDynamicItemP", "sizeThatFits"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "addShadow"]
+- !private ["So18UIFocusEnvironmentP", "attributedPlaceholder"]
+- !private ["So18UIFocusEnvironmentP", "kCTForegroundColorAttributeName"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "placeHolderColor"]
+- !private ["So18UIFocusEnvironmentP", "placeholder"]
+- !private ["So18UIFocusEnvironmentP", "sizeThatFits"]
+- !private ["So11UIFocusItemP", "CGSize"]
+- !private ["So11UIFocusItemP", "NSAttributedString"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "addShadow"]
+- !private ["So11UIFocusItemP", "attributedPlaceholder"]
+- !private ["So11UIFocusItemP", "kCTForegroundColorAttributeName"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "placeHolderColor"]
+- !private ["So11UIFocusItemP", "placeholder"]
+- !private ["So11UIFocusItemP", "sizeThatFits"]
+- !private ["So20UIFocusItemContainerP", "CGSize"]
+- !private ["So20UIFocusItemContainerP", "NSAttributedString"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- !private ["So20UIFocusItemContainerP", "addShadow"]
+- !private ["So20UIFocusItemContainerP", "attributedPlaceholder"]
+- !private ["So20UIFocusItemContainerP", "kCTForegroundColorAttributeName"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "placeHolderColor"]
+- !private ["So20UIFocusItemContainerP", "placeholder"]
+- !private ["So20UIFocusItemContainerP", "sizeThatFits"]
+- !private ["So10UIKeyInputP", "NSAttributedString"]
+- !private ["So10UIKeyInputP", "attributedPlaceholder"]
+- !private ["So10UIKeyInputP", "kCTForegroundColorAttributeName"]
+- !private ["So10UIKeyInputP", "placeHolderColor"]
+- !private ["So10UIKeyInputP", "placeholder"]
+- !private ["So24UILargeContentViewerItemP", "CGSize"]
+- !private ["So24UILargeContentViewerItemP", "NSAttributedString"]
+- !private ["So24UILargeContentViewerItemP", "UIColor"]
+- !private ["So24UILargeContentViewerItemP", "addShadow"]
+- !private ["So24UILargeContentViewerItemP", "attributedPlaceholder"]
+- !private ["So24UILargeContentViewerItemP", "kCTForegroundColorAttributeName"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "placeHolderColor"]
+- !private ["So24UILargeContentViewerItemP", "placeholder"]
+- !private ["So24UILargeContentViewerItemP", "sizeThatFits"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "addShadow"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedPlaceholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "kCTForegroundColorAttributeName"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "placeHolderColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "placeholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "sizeThatFits"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGColor"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "NSAttributedString"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "addShadow"]
+- !private ["So11UIResponderC", "attributedPlaceholder"]
+- ["So11UIResponderC", "borderColor"]
+- ["So11UIResponderC", "borderWidth"]
+- ["So11UIResponderC", "cornerRadius"]
+- !private ["So11UIResponderC", "kCTForegroundColorAttributeName"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "placeHolderColor"]
+- !private ["So11UIResponderC", "placeholder"]
+- ["So11UIResponderC", "shadow"]
+- ["So11UIResponderC", "shadowColor"]
+- ["So11UIResponderC", "shadowOffset"]
+- ["So11UIResponderC", "shadowOpacity"]
+- ["So11UIResponderC", "shadowRadius"]
+- ["So11UIResponderC", "sizeThatFits"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "addShadow"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedPlaceholder"]
+- !private ["So30UIResponderStandardEditActionsP", "kCTForegroundColorAttributeName"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "placeHolderColor"]
+- !private ["So30UIResponderStandardEditActionsP", "placeholder"]
+- !private ["So30UIResponderStandardEditActionsP", "sizeThatFits"]
+- ["So8UITabBarC", "CGSize"]
+- ["So8UITabBarC", "sizeThatFits"]
+- !private ["So15UITextDraggableP", "NSAttributedString"]
+- !private ["So15UITextDraggableP", "attributedPlaceholder"]
+- !private ["So15UITextDraggableP", "kCTForegroundColorAttributeName"]
+- !private ["So15UITextDraggableP", "placeHolderColor"]
+- !private ["So15UITextDraggableP", "placeholder"]
+- !private ["So15UITextDroppableP", "NSAttributedString"]
+- !private ["So15UITextDroppableP", "attributedPlaceholder"]
+- !private ["So15UITextDroppableP", "kCTForegroundColorAttributeName"]
+- !private ["So15UITextDroppableP", "placeHolderColor"]
+- !private ["So15UITextDroppableP", "placeholder"]
+- !private ["So11UITextFieldC", "NSAttributedString"]
+- ["So11UITextFieldC", "UIColor"]
+- !private ["So11UITextFieldC", "attributedPlaceholder"]
+- !private ["So11UITextFieldC", "kCTForegroundColorAttributeName"]
+- ["So11UITextFieldC", "placeHolderColor"]
+- !private ["So11UITextFieldC", "placeholder"]
+- !private ["So11UITextInputP", "NSAttributedString"]
+- !private ["So11UITextInputP", "attributedPlaceholder"]
+- !private ["So11UITextInputP", "kCTForegroundColorAttributeName"]
+- !private ["So11UITextInputP", "placeHolderColor"]
+- !private ["So11UITextInputP", "placeholder"]
+- !private ["So17UITextInputTraitsP", "NSAttributedString"]
+- !private ["So17UITextInputTraitsP", "attributedPlaceholder"]
+- !private ["So17UITextInputTraitsP", "kCTForegroundColorAttributeName"]
+- !private ["So17UITextInputTraitsP", "placeHolderColor"]
+- !private ["So17UITextInputTraitsP", "placeholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "NSAttributedString"]
+- !private ["So34UITextPasteConfigurationSupportingP", "attributedPlaceholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "kCTForegroundColorAttributeName"]
+- !private ["So34UITextPasteConfigurationSupportingP", "placeHolderColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "addShadow"]
+- !private ["So18UITraitEnvironmentP", "attributedPlaceholder"]
+- !private ["So18UITraitEnvironmentP", "kCTForegroundColorAttributeName"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "placeHolderColor"]
+- !private ["So18UITraitEnvironmentP", "placeholder"]
+- !private ["So18UITraitEnvironmentP", "sizeThatFits"]
+- !private ["So23UIUserActivityRestoringP", "CGSize"]
+- !private ["So23UIUserActivityRestoringP", "NSAttributedString"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "addShadow"]
+- !private ["So23UIUserActivityRestoringP", "attributedPlaceholder"]
+- !private ["So23UIUserActivityRestoringP", "kCTForegroundColorAttributeName"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "placeHolderColor"]
+- !private ["So23UIUserActivityRestoringP", "placeholder"]
+- !private ["So23UIUserActivityRestoringP", "sizeThatFits"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGColor"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "CGSize"]
+- ["So6UIViewC", "Float"]
+- !private ["So6UIViewC", "NSAttributedString"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "addShadow"]
+- !private ["So6UIViewC", "attributedPlaceholder"]
+- ["So6UIViewC", "borderColor"]
+- ["So6UIViewC", "borderWidth"]
+- ["So6UIViewC", "cornerRadius"]
+- !private ["So6UIViewC", "kCTForegroundColorAttributeName"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "placeHolderColor"]
+- !private ["So6UIViewC", "placeholder"]
+- ["So6UIViewC", "shadow"]
+- ["So6UIViewC", "shadowColor"]
+- ["So6UIViewC", "shadowOffset"]
+- ["So6UIViewC", "shadowOpacity"]
+- ["So6UIViewC", "shadowRadius"]
+- ["So6UIViewC", "sizeThatFits"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addShadow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedPlaceholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCTForegroundColorAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeHolderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOpacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sizeThatFits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSAttributedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addShadow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "attributedPlaceholder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "borderColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "borderWidth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCTForegroundColorAttributeName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "masksToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "placeHolderColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "placeholder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOpacity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sizeThatFits"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGSize"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSAttributedString"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addShadow"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "attributedPlaceholder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "kCTForegroundColorAttributeName"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "placeHolderColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "placeholder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sizeThatFits"]
+depends-nominal:
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- !private "10Kingfisher0A15CompatibleValueP"
+- !private "So18NSAttributedStringC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So8UITabBarC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlusCode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceFieldMask.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteSessionToken.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLocationOptions.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSOpeningHours.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7060b562b6da934d602eddff490bba05"

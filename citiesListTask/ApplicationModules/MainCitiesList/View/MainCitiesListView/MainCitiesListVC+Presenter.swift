@@ -9,6 +9,14 @@
 import PKHUD
 import UIKit
 extension MainCitiesListVC: MainCitiesListView {
+    func dismissKeyBoard() {
+        self.searchBar.resignFirstResponder()
+    }
+    
+    func showfilteredCities(cityName: String) {
+        print(cityName)
+    }
+    
     func showIndicator() {
         self.activityIndicator(isStart: true)
     }
@@ -29,8 +37,8 @@ extension MainCitiesListVC: MainCitiesListView {
     func goToShowMap(model: City) {
         let storybord = UIStoryboard(name: "Map", bundle: nil)
         let mapViewController = storybord.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
-        let city = model.name ?? ""
-        let country = model.country ?? ""
+        let city = model.name 
+        let country = model.country
         mapViewController.title = "\(city), \(country)"
         let presenter = CityLocationInMap(view: mapViewController, model: model)
         mapViewController.inject(cityLocationPresenter: presenter)

@@ -12,12 +12,7 @@ class MainCitiesListPresenter {
     
     private weak var view: MainCitiesListView?
     private let interactor = MainCitiesListInteractor()
-    private var citiesList = [City](){
-        didSet{
-            
-        }
-    }
-    
+    private var citiesList = [City]()
     init(view: MainCitiesListView) {
         self.view = view
     }
@@ -32,11 +27,22 @@ class MainCitiesListPresenter {
             } else {
                 guard let citiesListData = cities else { return }
                 self.citiesList += citiesListData
-                self.view?.fetchingDataSuccess()
+                self.rearrangeCitiesAlphabetical(citiesList: self.citiesList)
+
             }
         }
     }
-    
+    func rearrangeCitiesAlphabetical(citiesList:[City]){
+        print(citiesList.count)
+        self.citiesList.sort(by: self.sortCitiesListAlphabetical)
+        self.view?.fetchingDataSuccess()
+    }
+    func searchBarSearchButtonClicked(){
+        self.view?.dismissKeyBoard()
+    }
+    func SearchBarTextChanged(text:String) {
+        
+    }
     func didSelectCityRow(index: Int) {
         view?.goToShowMap(model: citiesList[index])
     }
@@ -49,11 +55,18 @@ class MainCitiesListPresenter {
         print(citiesList.count )
         return citiesList.count
     }
+    //list cities in alphabetical order (city first, country after)
+       func sortCitiesListAlphabetical(this:City, that:City) -> Bool {
+           if this.name == that.name {
+               return this.country < that.country
+           }
+         return this.name < that.name
+       }
    //configure Forecast Weather Cell
     func configureCitiesTableViewCell(cell: MainCitiesCellView, for index: Int) {
         cell.displayedImage(latitude:citiesList[index].coord?.lat ?? "" , longitude: citiesList[index].coord?.lat ?? "")
-        let city = citiesList[index].name ?? ""
-        let country = citiesList[index].country ?? ""
+        let city = citiesList[index].name 
+        let country = citiesList[index].country 
         cell.displayCity(cityName: "\(city), \(country)")
     }
 }

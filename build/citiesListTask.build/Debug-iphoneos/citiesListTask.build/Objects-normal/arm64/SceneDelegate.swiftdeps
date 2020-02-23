@@ -1,0 +1,396 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SceneDelegate"
+provides-nominal:
+- "14citiesListTask13SceneDelegateC"
+provides-member:
+- ["14citiesListTask13SceneDelegateC", ""]
+provides-dynamic-lookup:
+- "scene"
+- "sceneDidBecomeActive"
+- "sceneDidDisconnect"
+- "sceneDidEnterBackground"
+- "sceneWillEnterForeground"
+- "sceneWillResignActive"
+- "window"
+depends-top-level:
+- "CastingPrecedence"
+- "SceneDelegate"
+- "UIResponder"
+- "UIScene"
+- "UISceneSession"
+- "UIWindow"
+- !private "UIWindowScene"
+- "UIWindowSceneDelegate"
+depends-member:
+- ["s7CVarArgP", "ConnectionOptions"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "scene"]
+- ["s7CVarArgP", "sceneDidBecomeActive"]
+- ["s7CVarArgP", "sceneDidDisconnect"]
+- ["s7CVarArgP", "sceneDidEnterBackground"]
+- ["s7CVarArgP", "sceneWillEnterForeground"]
+- ["s7CVarArgP", "sceneWillResignActive"]
+- ["s7CVarArgP", "stateRestorationActivity"]
+- ["s7CVarArgP", "stateRestorationActivityForScene"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", "windowScene"]
+- ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "scene"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidDisconnect"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivity"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivityForScene"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", "windowScene"]
+- ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "scene"]
+- ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "sceneDidDisconnect"]
+- ["s23CustomStringConvertibleP", "sceneDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "sceneWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "sceneWillResignActive"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivity"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivityForScene"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", "windowScene"]
+- ["SQ", "ConnectionOptions"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- ["SQ", "scene"]
+- ["SQ", "sceneDidBecomeActive"]
+- ["SQ", "sceneDidDisconnect"]
+- ["SQ", "sceneDidEnterBackground"]
+- ["SQ", "sceneWillEnterForeground"]
+- ["SQ", "sceneWillResignActive"]
+- ["SQ", "stateRestorationActivity"]
+- ["SQ", "stateRestorationActivityForScene"]
+- ["SQ", "window"]
+- ["SQ", "windowScene"]
+- ["SH", "ConnectionOptions"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- ["SH", "scene"]
+- ["SH", "sceneDidBecomeActive"]
+- ["SH", "sceneDidDisconnect"]
+- ["SH", "sceneDidEnterBackground"]
+- ["SH", "sceneWillEnterForeground"]
+- ["SH", "sceneWillResignActive"]
+- ["SH", "stateRestorationActivity"]
+- ["SH", "stateRestorationActivityForScene"]
+- ["SH", "window"]
+- ["SH", "windowScene"]
+- ["So8NSObjectC", "ConnectionOptions"]
+- ["So8NSObjectC", "UIScene"]
+- ["So8NSObjectC", "UISceneSession"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UIWindowScene"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "scene"]
+- ["So8NSObjectC", "sceneDidBecomeActive"]
+- ["So8NSObjectC", "sceneDidDisconnect"]
+- ["So8NSObjectC", "sceneDidEnterBackground"]
+- ["So8NSObjectC", "sceneWillEnterForeground"]
+- ["So8NSObjectC", "sceneWillResignActive"]
+- ["So8NSObjectC", "stateRestorationActivity"]
+- ["So8NSObjectC", "stateRestorationActivityForScene"]
+- ["So8NSObjectC", "window"]
+- ["So8NSObjectC", "windowScene"]
+- ["So8NSObjectP", "ConnectionOptions"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "scene"]
+- ["So8NSObjectP", "sceneDidBecomeActive"]
+- ["So8NSObjectP", "sceneDidDisconnect"]
+- ["So8NSObjectP", "sceneDidEnterBackground"]
+- ["So8NSObjectP", "sceneWillEnterForeground"]
+- ["So8NSObjectP", "sceneWillResignActive"]
+- ["So8NSObjectP", "stateRestorationActivity"]
+- ["So8NSObjectP", "stateRestorationActivityForScene"]
+- ["So8NSObjectP", "window"]
+- ["So8NSObjectP", "windowScene"]
+- ["14citiesListTask13SceneDelegateC", "UIScene"]
+- ["14citiesListTask13SceneDelegateC", "UISceneSession"]
+- ["14citiesListTask13SceneDelegateC", "UIWindow"]
+- !private ["14citiesListTask13SceneDelegateC", "UIWindowScene"]
+- ["14citiesListTask13SceneDelegateC", "deinit"]
+- ["14citiesListTask13SceneDelegateC", "init"]
+- ["14citiesListTask13SceneDelegateC", "scene"]
+- ["14citiesListTask13SceneDelegateC", "sceneDidBecomeActive"]
+- ["14citiesListTask13SceneDelegateC", "sceneDidDisconnect"]
+- ["14citiesListTask13SceneDelegateC", "sceneDidEnterBackground"]
+- ["14citiesListTask13SceneDelegateC", "sceneWillEnterForeground"]
+- ["14citiesListTask13SceneDelegateC", "sceneWillResignActive"]
+- ["14citiesListTask13SceneDelegateC", "stateRestorationActivity"]
+- ["14citiesListTask13SceneDelegateC", "stateRestorationActivityForScene"]
+- ["14citiesListTask13SceneDelegateC", "window"]
+- ["14citiesListTask13SceneDelegateC", "windowScene"]
+- ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "scene"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivity"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivityForScene"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", "windowScene"]
+- ["So11UIResponderC", "ConnectionOptions"]
+- ["So11UIResponderC", "UIScene"]
+- ["So11UIResponderC", "UISceneSession"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UIWindowScene"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "scene"]
+- ["So11UIResponderC", "sceneDidBecomeActive"]
+- ["So11UIResponderC", "sceneDidDisconnect"]
+- ["So11UIResponderC", "sceneDidEnterBackground"]
+- ["So11UIResponderC", "sceneWillEnterForeground"]
+- ["So11UIResponderC", "sceneWillResignActive"]
+- ["So11UIResponderC", "stateRestorationActivity"]
+- ["So11UIResponderC", "stateRestorationActivityForScene"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", "windowScene"]
+- ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "scene"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivity"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivityForScene"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", "windowScene"]
+- ["So7UISceneC", "ConnectionOptions"]
+- ["So15UISceneDelegateP", ""]
+- ["So15UISceneDelegateP", "scene"]
+- ["So15UISceneDelegateP", "sceneDidBecomeActive"]
+- ["So15UISceneDelegateP", "sceneDidDisconnect"]
+- ["So15UISceneDelegateP", "sceneDidEnterBackground"]
+- ["So15UISceneDelegateP", "sceneWillEnterForeground"]
+- ["So15UISceneDelegateP", "sceneWillResignActive"]
+- ["So15UISceneDelegateP", "stateRestorationActivity"]
+- ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
+- ["So15UISceneDelegateP", "window"]
+- ["So15UISceneDelegateP", "windowScene"]
+- ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "scene"]
+- ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
+- ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
+- ["So23UIUserActivityRestoringP", "sceneDidEnterBackground"]
+- ["So23UIUserActivityRestoringP", "sceneWillEnterForeground"]
+- ["So23UIUserActivityRestoringP", "sceneWillResignActive"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivity"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivityForScene"]
+- ["So23UIUserActivityRestoringP", "window"]
+- ["So23UIUserActivityRestoringP", "windowScene"]
+- ["So21UIWindowSceneDelegateP", ""]
+- ["So21UIWindowSceneDelegateP", "scene"]
+- ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
+- ["So21UIWindowSceneDelegateP", "sceneDidDisconnect"]
+- ["So21UIWindowSceneDelegateP", "sceneDidEnterBackground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillEnterForeground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillResignActive"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivity"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivityForScene"]
+- ["So21UIWindowSceneDelegateP", "window"]
+- ["So21UIWindowSceneDelegateP", "windowScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidDisconnect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivityForScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidDisconnect"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidEnterBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillEnterForeground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillResignActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivity"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivityForScene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "14citiesListTask13SceneDelegateC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So7UISceneC"
+- "So15UISceneDelegateP"
+- "So23UIUserActivityRestoringP"
+- "So21UIWindowSceneDelegateP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Accelerate.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlusCode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceFieldMask.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteSessionToken.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLocationOptions.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSOpeningHours.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "127201c8c716b7030f8c10092b30daff"

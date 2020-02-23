@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Resource"
+- "ImageResource"
+provides-nominal:
+- "10Kingfisher8ResourceP"
+- "10Kingfisher13ImageResourceV"
+- "10Foundation3URLV"
+provides-member:
+- ["10Kingfisher8ResourceP", ""]
+- ["10Kingfisher13ImageResourceV", ""]
+- ["10Foundation3URLV", ""]
+- ["10Kingfisher8ResourceP", "convertToSource"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "ImageResource"
+- !private "LocalFileImageDataProvider"
+- "Resource"
+- "Source"
+- "String"
+- "TernaryPrecedence"
+- "URL"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- ["s28CustomDebugStringConvertibleP", "cacheKey"]
+- ["s28CustomDebugStringConvertibleP", "downloadURL"]
+- !private ["s28CustomDebugStringConvertibleP", "isFileURL"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- ["s23CustomStringConvertibleP", "cacheKey"]
+- ["s23CustomStringConvertibleP", "downloadURL"]
+- !private ["s23CustomStringConvertibleP", "isFileURL"]
+- !private ["Se", "absoluteString"]
+- ["Se", "cacheKey"]
+- ["Se", "downloadURL"]
+- !private ["Se", "isFileURL"]
+- !private ["SE", "absoluteString"]
+- ["SE", "cacheKey"]
+- ["SE", "downloadURL"]
+- !private ["SE", "isFileURL"]
+- !private ["SQ", "absoluteString"]
+- ["SQ", "cacheKey"]
+- ["SQ", "downloadURL"]
+- !private ["SQ", "isFileURL"]
+- !private ["SH", "absoluteString"]
+- ["SH", "cacheKey"]
+- ["SH", "downloadURL"]
+- !private ["SH", "isFileURL"]
+- !private ["10Kingfisher17ImageDataProviderP", "init"]
+- ["10Kingfisher13ImageResourceV", "String"]
+- ["10Kingfisher13ImageResourceV", "URL"]
+- ["10Kingfisher13ImageResourceV", "cacheKey"]
+- ["10Kingfisher13ImageResourceV", "deinit"]
+- ["10Kingfisher13ImageResourceV", "downloadURL"]
+- ["10Kingfisher13ImageResourceV", "init"]
+- !private ["10Kingfisher26LocalFileImageDataProviderV", "deinit"]
+- !private ["10Kingfisher26LocalFileImageDataProviderV", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- ["10Foundation20ReferenceConvertibleP", "cacheKey"]
+- ["10Foundation20ReferenceConvertibleP", "downloadURL"]
+- !private ["10Foundation20ReferenceConvertibleP", "isFileURL"]
+- !private ["10Kingfisher8ResourceP", "LocalFileImageDataProvider"]
+- ["10Kingfisher8ResourceP", "Source"]
+- ["10Kingfisher8ResourceP", "String"]
+- ["10Kingfisher8ResourceP", "URL"]
+- ["10Kingfisher8ResourceP", ""]
+- !private ["10Kingfisher8ResourceP", "absoluteString"]
+- ["10Kingfisher8ResourceP", "cacheKey"]
+- ["10Kingfisher8ResourceP", "convertToSource"]
+- ["10Kingfisher8ResourceP", "downloadURL"]
+- !private ["10Kingfisher8ResourceP", "isFileURL"]
+- !private ["10Kingfisher6SourceO", "network"]
+- !private ["10Kingfisher6SourceO", "provider"]
+- ["10Foundation3URLV", "String"]
+- ["10Foundation3URLV", "URL"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "cacheKey"]
+- ["10Foundation3URLV", "deinit"]
+- ["10Foundation3URLV", "downloadURL"]
+- !private ["10Foundation3URLV", "isFileURL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- ["s30_CustomPlaygroundQuickLookableP", "cacheKey"]
+- ["s30_CustomPlaygroundQuickLookableP", "downloadURL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isFileURL"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "cacheKey"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "downloadURL"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "isFileURL"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- ["s21_ObjectiveCBridgeableP", "cacheKey"]
+- ["s21_ObjectiveCBridgeableP", "downloadURL"]
+- !private ["s21_ObjectiveCBridgeableP", "isFileURL"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "SH"
+- !private "10Kingfisher17ImageDataProviderP"
+- "10Kingfisher13ImageResourceV"
+- !private "10Kingfisher26LocalFileImageDataProviderV"
+- "10Foundation20ReferenceConvertibleP"
+- "10Kingfisher8ResourceP"
+- !private "10Kingfisher6SourceO"
+- "10Foundation3URLV"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/os.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/MohamedNawar/Desktop/citiesListTask/build/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fb5b93074eebf29625b752e4330c21d1"

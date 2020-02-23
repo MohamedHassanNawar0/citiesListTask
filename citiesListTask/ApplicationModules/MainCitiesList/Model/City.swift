@@ -9,10 +9,16 @@
 import Foundation
 
 struct City: Decodable{
-    var country: String?
-    var name: String?
-    var id: String?
-    var coord: coordinateData?
+    var country : String
+    var name : String
+    var id : String?
+    var coord : coordinateData?
+    enum CodingKeys: String, CodingKey {
+        case country = "country"
+        case name = "name"
+        case id = "id"
+        case coord = "coord"
+    }
 }
 struct coordinateData: Decodable {
     var lon: String?
