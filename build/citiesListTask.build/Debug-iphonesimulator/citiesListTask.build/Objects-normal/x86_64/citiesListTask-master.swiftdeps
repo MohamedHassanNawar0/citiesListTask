@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "ff9a8eca6ae162e98d32a51b845727bc"
-build_time: [1582497914, 405263000]
+build_time: [1582500304, 4161000]
 inputs:
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/MainCitiesList/Presenter/MainlListPresenterProtocols.swift": [1582497730, 587460705]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/CityLocationOnMap/Presenter/CityLocationInMap.swift": [1582495989, 607455055]
@@ -15,7 +15,7 @@ inputs:
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/MainCitiesList/View/MainCitiesListView/MainCitiesList+TableView.swift": [1582496853, 509550286]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/Extensions/UITableViewExtension.swift": [1582406036, 643783347]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/Network/ErrorHandler.swift": [1582407521, 672837428]
-  "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/MainCitiesList/Presenter/MainCitiesListPresenter.swift": [1582497914, 323009537]
+  "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/MainCitiesList/Presenter/MainCitiesListPresenter.swift": [1582500303, 882793175]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/Network/NetworkingInterface.swift": [1582407514, 33828086]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/Extensions/BaseViewController.swift": [1582488566, 899157098]
   "/Users/MohamedNawar/Desktop/citiesListTask/citiesListTask/ApplicationModules/MainCitiesList/Interactor/MainCitiesListInteractor.swift": [1582497754, 283234736]

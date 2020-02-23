@@ -13,11 +13,17 @@ class MainCitiesListPresenter {
     private weak var view: MainCitiesListView?
     private let interactor = MainCitiesListInteractor()
     private var citiesList = [City]()
+    var searchBarText = "" {
+        didSet{
+            self.view?.fetchingDataSuccess()
+        }
+    }
     init(view: MainCitiesListView) {
         self.view = view
     }
     // method called to request forecast weather for selected city
     func getCitiesList() {
+        guard searchBarText == "" else {return}
         view?.showIndicator()
         interactor.getCitiesList() { [weak self] (cities, error) in
                         guard let self = self else { return }
@@ -41,8 +47,10 @@ class MainCitiesListPresenter {
         self.view?.dismissKeyBoard()
     }
     func SearchBarTextChanged(text:String) {
-        
+        searchBarText = text
+        self.view?.fetchingDataSuccess()
     }
+        
     func didSelectCityRow(index: Int) {
         view?.goToShowMap(model: citiesList[index])
     }
@@ -52,8 +60,8 @@ class MainCitiesListPresenter {
     }
     //method to return number of forecast weather for selected city
     func getCitiesListCount() -> Int {
-        print(citiesList.count )
-        return citiesList.count
+        let count = self.citiesList.filter({$0.name.prefix(searchBarText.count) == searchBarText.prefix(searchBarText.count)}).count
+        return count
     }
     //list cities in alphabetical order (city first, country after)
        func sortCitiesListAlphabetical(this:City, that:City) -> Bool {
@@ -64,9 +72,10 @@ class MainCitiesListPresenter {
        }
    //configure Forecast Weather Cell
     func configureCitiesTableViewCell(cell: MainCitiesCellView, for index: Int) {
-        cell.displayedImage(latitude:citiesList[index].coord?.lat ?? "" , longitude: citiesList[index].coord?.lat ?? "")
-        let city = citiesList[index].name 
-        let country = citiesList[index].country 
+        let cities = self.citiesList.filter({$0.name.prefix(searchBarText.count) == searchBarText.prefix(searchBarText.count)})
+        cell.displayedImage(latitude:cities[index].coord?.lat ?? "" , longitude: cities[index].coord?.lat ?? "")
+        let city = cities[index].name
+        let country = cities[index].country
         cell.displayCity(cityName: "\(city), \(country)")
     }
 }
