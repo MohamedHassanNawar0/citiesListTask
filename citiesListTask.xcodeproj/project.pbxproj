@@ -3,17 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B16A1F558E54ACEF3346B69 /* Pods_citiesListTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82F431B892AACC12624219D /* Pods_citiesListTaskTests.framework */; };
+		FB065D932401F5E500EC159E /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB065D922401F5E500EC159E /* Map.storyboard */; };
+		FB065D952401F61700EC159E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB065D942401F61700EC159E /* MapViewController.swift */; };
 		FB693F342401C9C30015A110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F332401C9C30015A110 /* AppDelegate.swift */; };
 		FB693F362401C9C30015A110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F352401C9C30015A110 /* SceneDelegate.swift */; };
-		FB693F382401C9C30015A110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F372401C9C30015A110 /* ViewController.swift */; };
+		FB693F382401C9C30015A110 /* MainCitiesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F372401C9C30015A110 /* MainCitiesListVC.swift */; };
 		FB693F3B2401C9C30015A110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB693F392401C9C30015A110 /* Main.storyboard */; };
 		FB693F3D2401C9C40015A110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB693F3C2401C9C40015A110 /* Assets.xcassets */; };
 		FB693F402401C9C40015A110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB693F3E2401C9C40015A110 /* LaunchScreen.storyboard */; };
 		FB693F4B2401C9C40015A110 /* citiesListTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F4A2401C9C40015A110 /* citiesListTaskTests.swift */; };
+		FB693F572401D0C90015A110 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F562401D0C90015A110 /* View.swift */; };
+		FB693F592401D0E50015A110 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F582401D0E50015A110 /* UITableViewExtension.swift */; };
+		FB693F5B2401D2050015A110 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F5A2401D2050015A110 /* BaseViewController.swift */; };
+		FB693F632401D2CC0015A110 /* neosans_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB693F622401D2CC0015A110 /* neosans_regular.ttf */; };
+		FB693F662401D6BC0015A110 /* NetworkingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F652401D6BC0015A110 /* NetworkingInterface.swift */; };
+		FB693F682401D6D90015A110 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F672401D6D90015A110 /* ErrorHandler.swift */; };
+		FB693F712401D8070015A110 /* MainCitiesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F702401D8070015A110 /* MainCitiesListInteractor.swift */; };
+		FB693F742401D8A90015A110 /* MainlListPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F732401D8A90015A110 /* MainlListPresenterProtocols.swift */; };
+		FB693F762401D8E00015A110 /* MainCitiesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F752401D8E00015A110 /* MainCitiesListPresenter.swift */; };
+		FB693F782401DA1E0015A110 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F772401DA1E0015A110 /* City.swift */; };
+		FB693F7A2401DF4A0015A110 /* MainCitiesList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F792401DF4A0015A110 /* MainCitiesList+TableView.swift */; };
+		FB693F7C2401E0120015A110 /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F7B2401E0120015A110 /* CitiesTableViewCell.swift */; };
+		FB693F7E2401E05B0015A110 /* CitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB693F7D2401E05B0015A110 /* CitiesTableViewCell.xib */; };
+		FB693F802401E2A10015A110 /* MainCitiesListVC+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F7F2401E2A10015A110 /* MainCitiesListVC+SearchBar.swift */; };
+		FB693F822401E4800015A110 /* MainCitiesListVC+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F812401E4800015A110 /* MainCitiesListVC+Presenter.swift */; };
+		FB84E57A2402FB58001875B2 /* CityLocationInMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84E5792402FB58001875B2 /* CityLocationInMap.swift */; };
+		FB84E585240304E9001875B2 /* Pods_citiesListTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */; };
+		FB84E586240304E9001875B2 /* Pods_citiesListTask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,11 +47,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FB84E584240304E1001875B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB84E586240304E9001875B2 /* Pods_citiesListTask.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6B24E98C3F8F7F15EEAE0CED /* Pods-citiesListTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citiesListTask.debug.xcconfig"; path = "Target Support Files/Pods-citiesListTask/Pods-citiesListTask.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2332584695E169E8BF5684 /* Pods-citiesListTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citiesListTaskTests.release.xcconfig"; path = "Target Support Files/Pods-citiesListTaskTests/Pods-citiesListTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6AA1D38F24AA3A876D406 /* Pods-citiesListTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citiesListTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-citiesListTaskTests/Pods-citiesListTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF16BDF2D61D878FBB16ABE /* Pods-citiesListTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citiesListTask.release.xcconfig"; path = "Target Support Files/Pods-citiesListTask/Pods-citiesListTask.release.xcconfig"; sourceTree = "<group>"; };
+		DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citiesListTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82F431B892AACC12624219D /* Pods_citiesListTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citiesListTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB065D922401F5E500EC159E /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		FB065D942401F61700EC159E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FB693F302401C9C30015A110 /* citiesListTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citiesListTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB693F332401C9C30015A110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB693F352401C9C30015A110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB693F372401C9C30015A110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB693F372401C9C30015A110 /* MainCitiesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCitiesListVC.swift; sourceTree = "<group>"; };
 		FB693F3A2401C9C30015A110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB693F3C2401C9C40015A110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB693F3F2401C9C40015A110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +81,26 @@
 		FB693F462401C9C40015A110 /* citiesListTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citiesListTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB693F4A2401C9C40015A110 /* citiesListTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesListTaskTests.swift; sourceTree = "<group>"; };
 		FB693F4C2401C9C40015A110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB693F562401D0C90015A110 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FB693F582401D0E50015A110 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		FB693F5A2401D2050015A110 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FB693F622401D2CC0015A110 /* neosans_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = neosans_regular.ttf; sourceTree = "<group>"; };
+		FB693F652401D6BC0015A110 /* NetworkingInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingInterface.swift; sourceTree = "<group>"; };
+		FB693F672401D6D90015A110 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		FB693F702401D8070015A110 /* MainCitiesListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCitiesListInteractor.swift; sourceTree = "<group>"; };
+		FB693F732401D8A90015A110 /* MainlListPresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainlListPresenterProtocols.swift; sourceTree = "<group>"; };
+		FB693F752401D8E00015A110 /* MainCitiesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCitiesListPresenter.swift; sourceTree = "<group>"; };
+		FB693F772401DA1E0015A110 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		FB693F792401DF4A0015A110 /* MainCitiesList+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainCitiesList+TableView.swift"; sourceTree = "<group>"; };
+		FB693F7B2401E0120015A110 /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		FB693F7D2401E05B0015A110 /* CitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitiesTableViewCell.xib; sourceTree = "<group>"; };
+		FB693F7F2401E2A10015A110 /* MainCitiesListVC+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainCitiesListVC+SearchBar.swift"; sourceTree = "<group>"; };
+		FB693F812401E4800015A110 /* MainCitiesListVC+Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainCitiesListVC+Presenter.swift"; sourceTree = "<group>"; };
+		FB766ECE2403090400895731 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB84E5792402FB58001875B2 /* CityLocationInMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocationInMap.swift; sourceTree = "<group>"; };
+		FB84E57B240304E0001875B2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB84E57C240304E0001875B2 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB84E57D240304E0001875B2 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB84E585240304E9001875B2 /* Pods_citiesListTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +116,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B16A1F558E54ACEF3346B69 /* Pods_citiesListTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99B4CB7CA42CC7422B28C9BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B24E98C3F8F7F15EEAE0CED /* Pods-citiesListTask.debug.xcconfig */,
+				9CF16BDF2D61D878FBB16ABE /* Pods-citiesListTask.release.xcconfig */,
+				89C6AA1D38F24AA3A876D406 /* Pods-citiesListTaskTests.debug.xcconfig */,
+				7D2332584695E169E8BF5684 /* Pods-citiesListTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C764B1FF57F8C498F0B70DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB766ECE2403090400895731 /* Alamofire.framework */,
+				FB84E57B240304E0001875B2 /* Alamofire.framework */,
+				FB84E57C240304E0001875B2 /* Kingfisher.framework */,
+				FB84E57D240304E0001875B2 /* PKHUD.framework */,
+				DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */,
+				E82F431B892AACC12624219D /* Pods_citiesListTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB065D8E2401F55E00EC159E /* CityLocationOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				FB065D912401F5C200EC159E /* Presenter */,
+				FB065D8F2401F5AE00EC159E /* View */,
+			);
+			path = CityLocationOnMap;
+			sourceTree = "<group>";
+		};
+		FB065D8F2401F5AE00EC159E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB065D922401F5E500EC159E /* Map.storyboard */,
+				FB065D942401F61700EC159E /* MapViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB065D912401F5C200EC159E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FB84E5792402FB58001875B2 /* CityLocationInMap.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		FB693F272401C9C30015A110 = {
 			isa = PBXGroup;
 			children = (
 				FB693F322401C9C30015A110 /* citiesListTask */,
 				FB693F492401C9C40015A110 /* citiesListTaskTests */,
 				FB693F312401C9C30015A110 /* Products */,
+				99B4CB7CA42CC7422B28C9BA /* Pods */,
+				C764B1FF57F8C498F0B70DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +196,10 @@
 		FB693F322401C9C30015A110 /* citiesListTask */ = {
 			isa = PBXGroup;
 			children = (
-				FB693F332401C9C30015A110 /* AppDelegate.swift */,
-				FB693F352401C9C30015A110 /* SceneDelegate.swift */,
-				FB693F372401C9C30015A110 /* ViewController.swift */,
-				FB693F392401C9C30015A110 /* Main.storyboard */,
-				FB693F3C2401C9C40015A110 /* Assets.xcassets */,
-				FB693F3E2401C9C40015A110 /* LaunchScreen.storyboard */,
-				FB693F412401C9C40015A110 /* Info.plist */,
+				FB693F642401D6A70015A110 /* Network */,
+				FB693F552401D09D0015A110 /* Extensions */,
+				FB693F5C2401D2410015A110 /* Resources */,
+				FB693F692401D6F60015A110 /* ApplicationModules */,
 			);
 			path = citiesListTask;
 			sourceTree = "<group>";
@@ -99,6 +213,153 @@
 			path = citiesListTaskTests;
 			sourceTree = "<group>";
 		};
+		FB693F552401D09D0015A110 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F562401D0C90015A110 /* View.swift */,
+				FB693F582401D0E50015A110 /* UITableViewExtension.swift */,
+				FB693F5A2401D2050015A110 /* BaseViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB693F5C2401D2410015A110 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F612401D29D0015A110 /* Info */,
+				FB693F602401D2920015A110 /* Font */,
+				FB693F5F2401D2860015A110 /* LaunchScreen */,
+				FB693F5E2401D2790015A110 /* AppDelegate&SceneDelegate */,
+				FB693F5D2401D25F0015A110 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB693F5D2401D25F0015A110 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F3C2401C9C40015A110 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FB693F5E2401D2790015A110 /* AppDelegate&SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F332401C9C30015A110 /* AppDelegate.swift */,
+				FB693F352401C9C30015A110 /* SceneDelegate.swift */,
+			);
+			path = "AppDelegate&SceneDelegate";
+			sourceTree = "<group>";
+		};
+		FB693F5F2401D2860015A110 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F3E2401C9C40015A110 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FB693F602401D2920015A110 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F622401D2CC0015A110 /* neosans_regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FB693F612401D29D0015A110 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F412401C9C40015A110 /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		FB693F642401D6A70015A110 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F652401D6BC0015A110 /* NetworkingInterface.swift */,
+				FB693F672401D6D90015A110 /* ErrorHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FB693F692401D6F60015A110 /* ApplicationModules */ = {
+			isa = PBXGroup;
+			children = (
+				FB065D8E2401F55E00EC159E /* CityLocationOnMap */,
+				FB693F6A2401D7170015A110 /* MainCitiesList */,
+			);
+			path = ApplicationModules;
+			sourceTree = "<group>";
+		};
+		FB693F6A2401D7170015A110 /* MainCitiesList */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F6C2401D79E0015A110 /* Model */,
+				FB693F6D2401D7AD0015A110 /* View */,
+				FB693F6E2401D7B70015A110 /* Presenter */,
+				FB693F6B2401D78E0015A110 /* Interactor */,
+			);
+			path = MainCitiesList;
+			sourceTree = "<group>";
+		};
+		FB693F6B2401D78E0015A110 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F702401D8070015A110 /* MainCitiesListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FB693F6C2401D79E0015A110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F772401DA1E0015A110 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB693F6D2401D7AD0015A110 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F722401D85F0015A110 /* MainCitiesListView */,
+				FB693F6F2401D7CB0015A110 /* CityCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB693F6E2401D7B70015A110 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F732401D8A90015A110 /* MainlListPresenterProtocols.swift */,
+				FB693F752401D8E00015A110 /* MainCitiesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FB693F6F2401D7CB0015A110 /* CityCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F7B2401E0120015A110 /* CitiesTableViewCell.swift */,
+				FB693F7D2401E05B0015A110 /* CitiesTableViewCell.xib */,
+			);
+			path = CityCell;
+			sourceTree = "<group>";
+		};
+		FB693F722401D85F0015A110 /* MainCitiesListView */ = {
+			isa = PBXGroup;
+			children = (
+				FB693F372401C9C30015A110 /* MainCitiesListVC.swift */,
+				FB693F392401C9C30015A110 /* Main.storyboard */,
+				FB693F792401DF4A0015A110 /* MainCitiesList+TableView.swift */,
+				FB693F7F2401E2A10015A110 /* MainCitiesListVC+SearchBar.swift */,
+				FB693F812401E4800015A110 /* MainCitiesListVC+Presenter.swift */,
+			);
+			path = MainCitiesListView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +367,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB693F4F2401C9C40015A110 /* Build configuration list for PBXNativeTarget "citiesListTask" */;
 			buildPhases = (
+				CE128124A4BD8020F91F7BF5 /* [CP] Check Pods Manifest.lock */,
 				FB693F2C2401C9C30015A110 /* Sources */,
 				FB693F2D2401C9C30015A110 /* Frameworks */,
 				FB693F2E2401C9C30015A110 /* Resources */,
+				B5C7BF6BD1097433BA6A33DC /* [CP] Embed Pods Frameworks */,
+				FC2F69160B9A8EDDEF5763C1 /* [CP] Copy Pods Resources */,
+				FB84E584240304E1001875B2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB693F522401C9C40015A110 /* Build configuration list for PBXNativeTarget "citiesListTaskTests" */;
 			buildPhases = (
+				6CF9C948156790F03B8E0BCD /* [CP] Check Pods Manifest.lock */,
 				FB693F422401C9C40015A110 /* Sources */,
 				FB693F432401C9C40015A110 /* Frameworks */,
 				FB693F442401C9C40015A110 /* Resources */,
@@ -181,8 +447,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB693F402401C9C40015A110 /* LaunchScreen.storyboard in Resources */,
+				FB693F7E2401E05B0015A110 /* CitiesTableViewCell.xib in Resources */,
 				FB693F3D2401C9C40015A110 /* Assets.xcassets in Resources */,
 				FB693F3B2401C9C30015A110 /* Main.storyboard in Resources */,
+				FB693F632401D2CC0015A110 /* neosans_regular.ttf in Resources */,
+				FB065D932401F5E500EC159E /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +464,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CF9C948156790F03B8E0BCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-citiesListTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C7BF6BD1097433BA6A33DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE128124A4BD8020F91F7BF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-citiesListTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2F69160B9A8EDDEF5763C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-citiesListTask/Pods-citiesListTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB693F2C2401C9C30015A110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB693F382401C9C30015A110 /* ViewController.swift in Sources */,
+				FB693F742401D8A90015A110 /* MainlListPresenterProtocols.swift in Sources */,
+				FB84E57A2402FB58001875B2 /* CityLocationInMap.swift in Sources */,
+				FB693F572401D0C90015A110 /* View.swift in Sources */,
+				FB693F822401E4800015A110 /* MainCitiesListVC+Presenter.swift in Sources */,
+				FB693F782401DA1E0015A110 /* City.swift in Sources */,
+				FB693F382401C9C30015A110 /* MainCitiesListVC.swift in Sources */,
 				FB693F342401C9C30015A110 /* AppDelegate.swift in Sources */,
 				FB693F362401C9C30015A110 /* SceneDelegate.swift in Sources */,
+				FB693F7C2401E0120015A110 /* CitiesTableViewCell.swift in Sources */,
+				FB693F802401E2A10015A110 /* MainCitiesListVC+SearchBar.swift in Sources */,
+				FB693F7A2401DF4A0015A110 /* MainCitiesList+TableView.swift in Sources */,
+				FB693F592401D0E50015A110 /* UITableViewExtension.swift in Sources */,
+				FB693F682401D6D90015A110 /* ErrorHandler.swift in Sources */,
+				FB693F762401D8E00015A110 /* MainCitiesListPresenter.swift in Sources */,
+				FB693F662401D6BC0015A110 /* NetworkingInterface.swift in Sources */,
+				FB693F5B2401D2050015A110 /* BaseViewController.swift in Sources */,
+				FB693F712401D8070015A110 /* MainCitiesListInteractor.swift in Sources */,
+				FB065D952401F61700EC159E /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,11 +725,13 @@
 		};
 		FB693F502401C9C40015A110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B24E98C3F8F7F15EEAE0CED /* Pods-citiesListTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZH4T4TWZ3;
-				INFOPLIST_FILE = citiesListTask/Info.plist;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/citiesListTask/Resources/Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +745,13 @@
 		};
 		FB693F512401C9C40015A110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF16BDF2D61D878FBB16ABE /* Pods-citiesListTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZH4T4TWZ3;
-				INFOPLIST_FILE = citiesListTask/Info.plist;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/citiesListTask/Resources/Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +765,7 @@
 		};
 		FB693F532401C9C40015A110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6AA1D38F24AA3A876D406 /* Pods-citiesListTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +788,7 @@
 		};
 		FB693F542401C9C40015A110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2332584695E169E8BF5684 /* Pods-citiesListTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

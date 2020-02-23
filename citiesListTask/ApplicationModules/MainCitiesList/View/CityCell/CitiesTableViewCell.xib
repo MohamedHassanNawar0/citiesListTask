@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="neosans_regular.ttf">
+            <string>NeoSansW23</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CitiesTableViewCell" id="sJV-Fz-btm" customClass="CitiesTableViewCell" customModule="citiesListTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sJV-Fz-btm" id="zfo-CO-G1I">
+                <rect key="frame" x="0.0" y="0.0" width="471" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5W-TZ-MbO">
+                        <rect key="frame" x="5" y="5" width="461" height="110"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="tsG-qq-X1T">
+                                <rect key="frame" x="163" y="46" width="288" height="18"/>
+                                <fontDescription key="fontDescription" name="NeoSansW23" family="Neo Sans W23" pointSize="15"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy2" translatesAutoresizingMaskIntoConstraints="NO" id="A5Z-2B-WYi">
+                                <rect key="frame" x="-7" y="0.0" width="160" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="sUb-DI-aLB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.25246147260273971" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tsG-qq-X1T" secondAttribute="trailing" constant="10" id="0TD-9h-FIn"/>
+                            <constraint firstItem="tsG-qq-X1T" firstAttribute="centerY" secondItem="r5W-TZ-MbO" secondAttribute="centerY" id="CXq-i9-ICD"/>
+                            <constraint firstItem="A5Z-2B-WYi" firstAttribute="leading" secondItem="r5W-TZ-MbO" secondAttribute="leading" constant="-7" id="FFZ-5A-tfL"/>
+                            <constraint firstItem="tsG-qq-X1T" firstAttribute="leading" secondItem="A5Z-2B-WYi" secondAttribute="trailing" constant="10" id="fSV-Dv-nrD"/>
+                            <constraint firstAttribute="bottom" secondItem="A5Z-2B-WYi" secondAttribute="bottom" id="fWx-XT-avJ"/>
+                            <constraint firstAttribute="height" constant="110" id="nLa-nU-sTo"/>
+                            <constraint firstItem="A5Z-2B-WYi" firstAttribute="top" secondItem="r5W-TZ-MbO" secondAttribute="top" id="wHT-l8-plh"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="0.25246147260000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="r5W-TZ-MbO" secondAttribute="bottom" constant="5" id="BLC-0y-Mqe"/>
+                    <constraint firstItem="r5W-TZ-MbO" firstAttribute="top" secondItem="zfo-CO-G1I" secondAttribute="top" constant="5" id="LHC-bs-Cpv"/>
+                    <constraint firstAttribute="trailing" secondItem="r5W-TZ-MbO" secondAttribute="trailing" constant="5" id="Se3-tz-hxK"/>
+                    <constraint firstItem="r5W-TZ-MbO" firstAttribute="leading" secondItem="zfo-CO-G1I" secondAttribute="leading" constant="5" id="kSR-4v-IH0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cityNameLbl" destination="tsG-qq-X1T" id="mEE-yM-loC"/>
+                <outlet property="cityStaticImageView" destination="A5Z-2B-WYi" id="AsO-eM-mao"/>
+            </connections>
+            <point key="canvasLocation" x="68.840579710144937" y="-80.357142857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cloudy2" width="16" height="16"/>
+    </resources>
+</document>

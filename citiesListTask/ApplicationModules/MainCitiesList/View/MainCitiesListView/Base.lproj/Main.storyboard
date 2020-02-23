@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vdb-Aq-su2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Cities ListVC-->
+        <scene sceneID="ljc-vV-J6Z">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="txi-hd-LoX" customClass="MainCitiesListVC" customModule="citiesListTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CVZ-3X-Qgd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGround" translatesAutoresizingMaskIntoConstraints="NO" id="BYX-a4-zxz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ahf-1S-weo">
+                                <rect key="frame" x="0.0" y="144" width="414" height="718"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" text="" placeholder="Enter city name .." translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lG-OO-heM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ahf-1S-weo" firstAttribute="top" secondItem="1lG-OO-heM" secondAttribute="bottom" id="0r3-mi-gcp"/>
+                            <constraint firstItem="BYX-a4-zxz" firstAttribute="leading" secondItem="VSg-AZ-cnT" secondAttribute="leading" id="8rg-3B-QAl"/>
+                            <constraint firstItem="1lG-OO-heM" firstAttribute="top" secondItem="VSg-AZ-cnT" secondAttribute="top" id="VCg-2M-IFX"/>
+                            <constraint firstItem="1lG-OO-heM" firstAttribute="leading" secondItem="VSg-AZ-cnT" secondAttribute="leading" id="bLP-ll-aDh"/>
+                            <constraint firstAttribute="bottom" secondItem="BYX-a4-zxz" secondAttribute="bottom" id="c8n-OG-c0Y"/>
+                            <constraint firstItem="VSg-AZ-cnT" firstAttribute="bottom" secondItem="ahf-1S-weo" secondAttribute="bottom" id="huB-Xl-dpt"/>
+                            <constraint firstItem="1lG-OO-heM" firstAttribute="trailing" secondItem="VSg-AZ-cnT" secondAttribute="trailing" id="p63-R4-TPM"/>
+                            <constraint firstItem="BYX-a4-zxz" firstAttribute="top" secondItem="CVZ-3X-Qgd" secondAttribute="top" id="pDE-VT-6L9"/>
+                            <constraint firstItem="BYX-a4-zxz" firstAttribute="trailing" secondItem="VSg-AZ-cnT" secondAttribute="trailing" id="qaY-u5-n7y"/>
+                            <constraint firstItem="ahf-1S-weo" firstAttribute="leading" secondItem="VSg-AZ-cnT" secondAttribute="leading" id="xO6-sN-6KF"/>
+                            <constraint firstItem="ahf-1S-weo" firstAttribute="trailing" secondItem="VSg-AZ-cnT" secondAttribute="trailing" id="yjo-HT-Xtt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VSg-AZ-cnT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cpk-1b-RJV"/>
+                    <connections>
+                        <outlet property="citiesTableView" destination="ahf-1S-weo" id="k4g-BN-Rn2"/>
+                        <outlet property="searchBar" destination="1lG-OO-heM" id="Vqo-KN-GLM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1x-yU-nTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1965.217391304348" y="234.375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7jK-G7-c0J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vdb-Aq-su2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Av7-x1-UkX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="txi-hd-LoX" kind="relationship" relationship="rootViewController" id="KBK-an-yfv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rpt-Ln-XH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055.072463768116" y="234.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backGround" width="360" height="640"/>
+    </resources>
+</document>
