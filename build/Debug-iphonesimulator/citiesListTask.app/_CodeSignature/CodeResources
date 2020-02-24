@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Hanx7Pw1eeeEkET8hI2AjlH60IA=
+		PqHP2Phpgqns5NfJELMV/9LR4No=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -34,19 +34,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/MainViewController.nib</key>
 		<data>
-		5dlNAffUP9jdv3KGXPpn09rw9lg=
+		C1h3Zi8g/MSibWWzG4clAhP7OyA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Vdb-Aq-su2.nib</key>
 		<data>
-		HyXsUidEuWb7BMRXz0xs1wR1NwI=
+		n43nBMlh8VNu1BkwR/NI5thsacs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/txi-hd-LoX-view-CVZ-3X-Qgd.nib</key>
 		<data>
-		xtDZyQpbsS9wJnbZZ0G658OY6vA=
+		SqAs4P6CQonSZA33s+fN6SbIYEE=
+		</data>
+		<key>CitiesJSON.txt</key>
+		<data>
+		62TNg2DYE9pQ9e1zKoXVV9V9HNo=
 		</data>
 		<key>CitiesTableViewCell.nib</key>
 		<data>
-		AM0hibjzUwNHXnaO85+6gEUTVpA=
+		Q/crfBxuIk43WNh0Tyjatm4eyrQ=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -139,6 +143,55 @@
 		<key>Frameworks/Pods_citiesListTask.framework/_CodeSignature/CodeSignature</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<data>
+		OGPOMv0LkN+98GkggDQcBibUZk8=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<data>
+		76Mf6x2aLge9pMTTnfd9xPAV1G0=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		dz9607MmqKVrtwuy2phqXTw27i4=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<data>
+		6MXj3acPmvECwyiIwFONRsIpgDk=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		j8pxwEMsKyiaEvnS05Y2BR2rf9o=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		kiQr4VusyXwJauzmEZ0PqmCC+C8=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		1xhd55E4lxTdj6MUNv/dlKr2dQk=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		6MXj3acPmvECwyiIwFONRsIpgDk=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		dkqitB7jE5YxYAZU7wHYzoQ51qM=
+		</data>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<data>
+		DjkU1iwRPJ1oLH/Ox0vn+gbA+DM=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -1272,6 +1325,22 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/citiesListTaskTests.xctest/CitiesJSON.txt</key>
+		<data>
+		62TNg2DYE9pQ9e1zKoXVV9V9HNo=
+		</data>
+		<key>PlugIns/citiesListTaskTests.xctest/Info.plist</key>
+		<data>
+		vaE4SKJ6n+/08fw6e6apuFpKGow=
+		</data>
+		<key>PlugIns/citiesListTaskTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		2cML84yDpcXMeSRpFWjssGbEmBQ=
+		</data>
+		<key>PlugIns/citiesListTaskTests.xctest/citiesListTaskTests</key>
+		<data>
+		UZ1I0UfzGtY24QtrRQWXeMnr43w=
+		</data>
 		<key>neosans_regular.ttf</key>
 		<data>
 		5I9rXmsBpCbRDETm8MxMUqTzUO0=
@@ -1297,7 +1366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a2fl6D9mDWQoRnPLM/EfXudbkxcloaRx0QdxvVWAceU=
+			5otGBl+6LhMEixnJ93j88j+2Q/CHbBOiN6AbRari9Q8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -1332,28 +1401,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYC/mKLNTf2ZaIvjwpWWL7918SIXCaZJ4EQiWIdIA4k=
+			FtfyitCee0wawWIZF8czt8nPTqGoGqTN4byCu9fYlvU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Vdb-Aq-su2.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EddSDUjikXyNA96HoT1Ytyc/+S9Ya6RXTsCOkIv+jp4=
+			x1crx1uM/o+dma9cvEwvXZuRtFmQIlwiC1ILsMZaA/4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/txi-hd-LoX-view-CVZ-3X-Qgd.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/aNCotGQpkf2RP4iXRI4iQ69EgfrGL5YjscAPdlHBbA=
+			otBVlr4oSbIJIdHI1epCEtBYisARe/puwA87yLW0W24=
+			</data>
+		</dict>
+		<key>CitiesJSON.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e1o/WzYQvdxaHqeJG76+UmzijySdiTOZ0OhtPKQFmZk=
 			</data>
 		</dict>
 		<key>CitiesTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jd9Q7bcGoq21tdLZ+6LnoUHA0JkEzhDOm+rS3TMzUA8=
+			2WtbCYw3Hj2+sKJCfwtVx9Nd3UpWzt3hUmrXudg3iGY=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -1515,6 +1591,85 @@
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UXjx+dzbH/VUdL1VrjpVNceWMlj3rQw+BT8iPYNyHX8=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zxQojWPPAT9d5MhhhtqjiKa8ajefe1sbL9YPQ5FToWM=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mzlD+A+oDWtL/lanJNY6K9wKXpMYXXZzhbcmHn9IU2A=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7eEgXfoApba0i1QcUkjoURwTLNAyVLq7o5r3CXdxx0=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4H2jujm0DMjzEs33dWK7yVTQZiUp/ho5TCbnhg1YoAA=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vopu/wV34z7A0qHZbbU2SR9Ij/sPLuHE/UlGvGaC/18=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			75TawGTGqdl4610TTHdT5qqHpKR9wqe4gdI9pUZMOtE=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A7eEgXfoApba0i1QcUkjoURwTLNAyVLq7o5r3CXdxx0=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uJ4boiRtdjrOexpyY2JnKgH0xuab39MQwTpLtzjNsBc=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6/hmEcPJ7UVcwq1OD63w8JeYVRJTmiYn10aCiZcVqlA=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2888,6 +3043,34 @@
 			<key>hash2</key>
 			<data>
 			aGjvEwM1oCJdwGiIBikPSWZIJ9tT+v6veu7QaXyglzE=
+			</data>
+		</dict>
+		<key>PlugIns/citiesListTaskTests.xctest/CitiesJSON.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e1o/WzYQvdxaHqeJG76+UmzijySdiTOZ0OhtPKQFmZk=
+			</data>
+		</dict>
+		<key>PlugIns/citiesListTaskTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l+SiCA9SWqyyRnMXLnJv8jXurnrfysjd+vvLQpIhJIM=
+			</data>
+		</dict>
+		<key>PlugIns/citiesListTaskTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aftHh/wo0OnYZLUVtOaAgcgbut3pPi2jNiv3BUeOXTA=
+			</data>
+		</dict>
+		<key>PlugIns/citiesListTaskTests.xctest/citiesListTaskTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2gnaBqxT8Ww8j1uBUDLzB2uud1tKLSQxN4VzG64S2G0=
 			</data>
 		</dict>
 		<key>neosans_regular.ttf</key>

@@ -13,6 +13,7 @@ depends-top-level:
 - !private "??"
 - "AssignmentPrecedence"
 - "Bool"
+- !private "BooleanLiteralType"
 - "City"
 - !private "FloatLiteralType"
 - "Int"
@@ -23,8 +24,11 @@ depends-top-level:
 - "MainCitiesListView"
 - "String"
 - "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
 - !private "print"
 depends-member:
+- !private ["14citiesListTask019APIServiceGetCitiesB8ProtocolP", "didReachLastPage"]
 - !private ["14citiesListTask019APIServiceGetCitiesB8ProtocolP", "getCitiesList"]
 - ["14citiesListTask019APIServiceGetCitiesB8ProtocolP", "init"]
 - !private ["14citiesListTask019APIServiceGetCitiesB8ProtocolP", "pageNumber"]
@@ -190,6 +194,7 @@ depends-member:
 - !private ["14citiesListTask18MainCitiesCellViewP", "displayCity"]
 - !private ["14citiesListTask18MainCitiesCellViewP", "displayedImage"]
 - !private ["14citiesListTask010MainCitiesB10InteractorC", "deinit"]
+- !private ["14citiesListTask010MainCitiesB10InteractorC", "didReachLastPage"]
 - !private ["14citiesListTask010MainCitiesB10InteractorC", "getCitiesList"]
 - ["14citiesListTask010MainCitiesB10InteractorC", "init"]
 - !private ["14citiesListTask010MainCitiesB10InteractorC", "pageNumber"]
@@ -201,18 +206,22 @@ depends-member:
 - ["14citiesListTask010MainCitiesB9PresenterC", "MainCitiesListView"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "SearchBarTextChanged"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "String"]
+- ["14citiesListTask010MainCitiesB9PresenterC", "URL"]
 - !private ["14citiesListTask010MainCitiesB9PresenterC", "citiesList"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "configureCitiesTableViewCell"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "didReachEndOfTableView"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "didSelectCityRow"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "getCitiesList"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "getCitiesListCount"]
+- ["14citiesListTask010MainCitiesB9PresenterC", "getCityGoogleStaticMapImageUrl"]
+- !private ["14citiesListTask010MainCitiesB9PresenterC", "googleAPiKey"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "init"]
 - !private ["14citiesListTask010MainCitiesB9PresenterC", "interactor"]
+- ["14citiesListTask010MainCitiesB9PresenterC", "listCitiesBasedOnSearchFilter"]
 - !private ["14citiesListTask010MainCitiesB9PresenterC", "print"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "rearrangeCitiesAlphabetical"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "searchBarSearchButtonClicked"]
-- ["14citiesListTask010MainCitiesB9PresenterC", "searchBarText"]
+- !private ["14citiesListTask010MainCitiesB9PresenterC", "searchBarText"]
 - ["14citiesListTask010MainCitiesB9PresenterC", "sortCitiesListAlphabetical"]
 - !private ["14citiesListTask010MainCitiesB9PresenterC", "view"]
 - !private ["14citiesListTask010MainCitiesB4ViewP", "dismissKeyBoard"]
@@ -271,6 +280,8 @@ depends-member:
 - !private ["Sm", "prefix"]
 - !private ["Sm", "sort"]
 - !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Kingfisher8ResourceP", "init"]
 - !private ["ST", "coord"]
 - !private ["ST", "count"]
 - !private ["ST", "country"]
@@ -292,7 +303,9 @@ depends-member:
 - !private ["s16TextOutputStreamP", "prefix"]
 - !private ["s20TextOutputStreamableP", "count"]
 - !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["10Foundation3URLV", "init"]
 - !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
 - !private ["9Alamofire14URLConvertibleP", "prefix"]
 - !private ["s14_ArrayProtocolP", "coord"]
 - !private ["s14_ArrayProtocolP", "count"]
@@ -303,6 +316,7 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "sort"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
 - !private ["s24_DestructorSafeContainerP", "coord"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -318,6 +332,7 @@ depends-member:
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s19_HasContiguousBytesP", "filter"]
 - ["s19_HasContiguousBytesP", "init"]
@@ -388,12 +403,15 @@ depends-nominal:
 - !private "So8NSStringC"
 - "Sk"
 - "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
 - "ST"
 - !private "SS"
 - !private "s27StringInterpolationProtocolP"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
 - !private "9Alamofire14URLConvertibleP"
 - "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
@@ -401,6 +419,7 @@ depends-nominal:
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
@@ -544,4 +563,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "539a89b9444a7c5b7fa0967787d57b01"
+interface-hash: "a87be3deab16b407d5613d060294cc9f"

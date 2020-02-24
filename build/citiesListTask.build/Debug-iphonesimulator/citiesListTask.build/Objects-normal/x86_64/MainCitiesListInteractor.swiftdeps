@@ -106,7 +106,7 @@ depends-member:
 - !private ["14citiesListTask010MainCitiesB10InteractorC", "citiesList"]
 - !private ["14citiesListTask010MainCitiesB10InteractorC", "citiesListEndpoint"]
 - ["14citiesListTask010MainCitiesB10InteractorC", "deinit"]
-- !private ["14citiesListTask010MainCitiesB10InteractorC", "didReachLastPage"]
+- ["14citiesListTask010MainCitiesB10InteractorC", "didReachLastPage"]
 - ["14citiesListTask010MainCitiesB10InteractorC", "getCitiesList"]
 - ["14citiesListTask010MainCitiesB10InteractorC", "init"]
 - ["14citiesListTask010MainCitiesB10InteractorC", "pageNumber"]
@@ -326,4 +326,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d5d33c1d9842e4103c4d0854bd55cb14"
+interface-hash: "b0d42f2d5db176d5c9dfe22bbd9aa950"

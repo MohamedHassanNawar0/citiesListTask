@@ -15,8 +15,10 @@ depends-top-level:
 - "MainCitiesCellView"
 - "MainCitiesListView"
 - "String"
+- "URL"
 depends-member:
 - ["14citiesListTask18MainCitiesCellViewP", "String"]
+- ["14citiesListTask18MainCitiesCellViewP", "URL"]
 - ["14citiesListTask18MainCitiesCellViewP", "displayCity"]
 - ["14citiesListTask18MainCitiesCellViewP", "displayedImage"]
 - ["14citiesListTask010MainCitiesB4ViewP", "City"]
@@ -27,7 +29,6 @@ depends-member:
 - ["14citiesListTask010MainCitiesB4ViewP", "hideIndicator"]
 - ["14citiesListTask010MainCitiesB4ViewP", "showIndicator"]
 - ["14citiesListTask010MainCitiesB4ViewP", "showMessage"]
-- ["14citiesListTask010MainCitiesB4ViewP", "showfilteredCities"]
 depends-nominal:
 - "14citiesListTask18MainCitiesCellViewP"
 - "14citiesListTask010MainCitiesB4ViewP"
@@ -168,4 +169,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "82722e86c48142aa3df066dffdf83e57"
+interface-hash: "5b5f92a417edfaa6e59ef34c2387876b"

@@ -16,7 +16,7 @@
 		FB693F3B2401C9C30015A110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB693F392401C9C30015A110 /* Main.storyboard */; };
 		FB693F3D2401C9C40015A110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB693F3C2401C9C40015A110 /* Assets.xcassets */; };
 		FB693F402401C9C40015A110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB693F3E2401C9C40015A110 /* LaunchScreen.storyboard */; };
-		FB693F4B2401C9C40015A110 /* citiesListTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F4A2401C9C40015A110 /* citiesListTaskTests.swift */; };
+		FB693F4B2401C9C40015A110 /* citiesListRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F4A2401C9C40015A110 /* citiesListRequestTests.swift */; };
 		FB693F572401D0C90015A110 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F562401D0C90015A110 /* View.swift */; };
 		FB693F592401D0E50015A110 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F582401D0E50015A110 /* UITableViewExtension.swift */; };
 		FB693F5B2401D2050015A110 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB693F5A2401D2050015A110 /* BaseViewController.swift */; };
@@ -35,6 +35,12 @@
 		FB84E57A2402FB58001875B2 /* CityLocationInMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84E5792402FB58001875B2 /* CityLocationInMap.swift */; };
 		FB84E585240304E9001875B2 /* Pods_citiesListTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */; };
 		FB84E586240304E9001875B2 /* Pods_citiesListTask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF8778FDB53731A89F3DA880 /* Pods_citiesListTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBF33A262403E6720035270C /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33A252403E6720035270C /* AppStoryboard.swift */; };
+		FBF33A2A2403FBA30035270C /* CitiesJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBF33A292403FBA30035270C /* CitiesJSON.txt */; };
+		FBF33A2B2403FBA30035270C /* CitiesJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBF33A292403FBA30035270C /* CitiesJSON.txt */; };
+		FBF33A31240429830035270C /* FilterSearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33A30240429830035270C /* FilterSearchTest.swift */; };
+		FBF33A39240433060035270C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33A38240433060035270C /* Filter.swift */; };
+		FBF33A3A240433060035270C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF33A38240433060035270C /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +85,7 @@
 		FB693F3F2401C9C40015A110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB693F412401C9C40015A110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB693F462401C9C40015A110 /* citiesListTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citiesListTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB693F4A2401C9C40015A110 /* citiesListTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesListTaskTests.swift; sourceTree = "<group>"; };
+		FB693F4A2401C9C40015A110 /* citiesListRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesListRequestTests.swift; sourceTree = "<group>"; };
 		FB693F4C2401C9C40015A110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB693F562401D0C90015A110 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		FB693F582401D0E50015A110 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
@@ -101,6 +107,10 @@
 		FB84E57B240304E0001875B2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84E57C240304E0001875B2 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84E57D240304E0001875B2 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF33A252403E6720035270C /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		FBF33A292403FBA30035270C /* CitiesJSON.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CitiesJSON.txt; sourceTree = "<group>"; };
+		FBF33A30240429830035270C /* FilterSearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchTest.swift; sourceTree = "<group>"; };
+		FBF33A38240433060035270C /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,8 +217,10 @@
 		FB693F492401C9C40015A110 /* citiesListTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB693F4A2401C9C40015A110 /* citiesListTaskTests.swift */,
+				FBF33A2F2404295C0035270C /* CitiesListTest */,
 				FB693F4C2401C9C40015A110 /* Info.plist */,
+				FBF33A38240433060035270C /* Filter.swift */,
+				FBF33A292403FBA30035270C /* CitiesJSON.txt */,
 			);
 			path = citiesListTaskTests;
 			sourceTree = "<group>";
@@ -219,6 +231,7 @@
 				FB693F562401D0C90015A110 /* View.swift */,
 				FB693F582401D0E50015A110 /* UITableViewExtension.swift */,
 				FB693F5A2401D2050015A110 /* BaseViewController.swift */,
+				FBF33A252403E6720035270C /* AppStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,13 +364,22 @@
 		FB693F722401D85F0015A110 /* MainCitiesListView */ = {
 			isa = PBXGroup;
 			children = (
-				FB693F372401C9C30015A110 /* MainCitiesListVC.swift */,
 				FB693F392401C9C30015A110 /* Main.storyboard */,
+				FB693F372401C9C30015A110 /* MainCitiesListVC.swift */,
 				FB693F792401DF4A0015A110 /* MainCitiesList+TableView.swift */,
 				FB693F7F2401E2A10015A110 /* MainCitiesListVC+SearchBar.swift */,
 				FB693F812401E4800015A110 /* MainCitiesListVC+Presenter.swift */,
 			);
 			path = MainCitiesListView;
+			sourceTree = "<group>";
+		};
+		FBF33A2F2404295C0035270C /* CitiesListTest */ = {
+			isa = PBXGroup;
+			children = (
+				FBF33A30240429830035270C /* FilterSearchTest.swift */,
+				FB693F4A2401C9C40015A110 /* citiesListRequestTests.swift */,
+			);
+			path = CitiesListTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +473,7 @@
 				FB693F3D2401C9C40015A110 /* Assets.xcassets in Resources */,
 				FB693F3B2401C9C30015A110 /* Main.storyboard in Resources */,
 				FB693F632401D2CC0015A110 /* neosans_regular.ttf in Resources */,
+				FBF33A2A2403FBA30035270C /* CitiesJSON.txt in Resources */,
 				FB065D932401F5E500EC159E /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +482,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF33A2B2403FBA30035270C /* CitiesJSON.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,9 +575,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB693F742401D8A90015A110 /* MainlListPresenterProtocols.swift in Sources */,
+				FBF33A39240433060035270C /* Filter.swift in Sources */,
 				FB84E57A2402FB58001875B2 /* CityLocationInMap.swift in Sources */,
 				FB693F572401D0C90015A110 /* View.swift in Sources */,
 				FB693F822401E4800015A110 /* MainCitiesListVC+Presenter.swift in Sources */,
+				FBF33A262403E6720035270C /* AppStoryboard.swift in Sources */,
 				FB693F782401DA1E0015A110 /* City.swift in Sources */,
 				FB693F382401C9C30015A110 /* MainCitiesListVC.swift in Sources */,
 				FB693F342401C9C30015A110 /* AppDelegate.swift in Sources */,
@@ -575,7 +601,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB693F4B2401C9C40015A110 /* citiesListTaskTests.swift in Sources */,
+				FBF33A31240429830035270C /* FilterSearchTest.swift in Sources */,
+				FBF33A3A240433060035270C /* Filter.swift in Sources */,
+				FB693F4B2401C9C40015A110 /* citiesListRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

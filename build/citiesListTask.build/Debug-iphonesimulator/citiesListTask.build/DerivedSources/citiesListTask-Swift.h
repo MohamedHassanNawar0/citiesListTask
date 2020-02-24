@@ -266,11 +266,9 @@ SWIFT_CLASS("_TtC14citiesListTask16MainCitiesListVC")
 
 
 
-@class UIView;
 
 SWIFT_CLASS("_TtC14citiesListTask17MapViewController")
 @interface MapViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified mapView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -294,33 +292,16 @@ SWIFT_CLASS("_TtC14citiesListTask13SceneDelegate")
 @end
 
 
-@interface UITabBar (SWIFT_EXTENSION(citiesListTask))
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 
 @class UIColor;
-
-@interface UITextField (SWIFT_EXTENSION(citiesListTask))
-@property (nonatomic, strong) UIColor * _Nullable placeHolderColor;
-@end
-
-
-@interface UIView (SWIFT_EXTENSION(citiesListTask))
-@property (nonatomic) BOOL shadow;
-@end
-
 
 @interface UIView (SWIFT_EXTENSION(citiesListTask))
 @property (nonatomic) CGFloat cornerRadius;
 @property (nonatomic) CGFloat borderWidth;
 @property (nonatomic, strong) UIColor * _Nullable borderColor;
-@property (nonatomic) CGFloat shadowRadius;
-@property (nonatomic) float shadowOpacity;
-@property (nonatomic) CGSize shadowOffset;
-@property (nonatomic, strong) UIColor * _Nullable shadowColor;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

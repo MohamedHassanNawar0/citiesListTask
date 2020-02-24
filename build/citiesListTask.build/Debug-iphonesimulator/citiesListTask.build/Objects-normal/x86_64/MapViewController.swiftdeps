@@ -6,7 +6,6 @@ provides-nominal:
 provides-member:
 - ["14citiesListTask17MapViewControllerC", ""]
 provides-dynamic-lookup:
-- "mapView"
 - "viewDidLoad"
 depends-top-level:
 - !private "!="
@@ -26,7 +25,6 @@ depends-top-level:
 - "PresentCityLocationInMapView"
 - "String"
 - !private "StringLiteralType"
-- "UIView"
 - !private "print"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
@@ -38,13 +36,11 @@ depends-member:
 - !private ["14citiesListTask18BaseViewControllerC", "GMSMapView"]
 - !private ["14citiesListTask18BaseViewControllerC", "GMSMarker"]
 - ["14citiesListTask18BaseViewControllerC", "String"]
-- ["14citiesListTask18BaseViewControllerC", "UIView"]
 - ["14citiesListTask18BaseViewControllerC", ""]
 - ["14citiesListTask18BaseViewControllerC", "cityLocationPresenter"]
 - !private ["14citiesListTask18BaseViewControllerC", "deinit"]
 - ["14citiesListTask18BaseViewControllerC", "init"]
 - ["14citiesListTask18BaseViewControllerC", "inject"]
-- ["14citiesListTask18BaseViewControllerC", "mapView"]
 - ["14citiesListTask18BaseViewControllerC", "presentCityLocationInMap"]
 - !private ["14citiesListTask18BaseViewControllerC", "print"]
 - !private ["14citiesListTask18BaseViewControllerC", "view"]
@@ -171,12 +167,10 @@ depends-member:
 - !private ["14citiesListTask17MapViewControllerC", "GMSMapView"]
 - !private ["14citiesListTask17MapViewControllerC", "GMSMarker"]
 - ["14citiesListTask17MapViewControllerC", "String"]
-- ["14citiesListTask17MapViewControllerC", "UIView"]
 - ["14citiesListTask17MapViewControllerC", "cityLocationPresenter"]
 - ["14citiesListTask17MapViewControllerC", "deinit"]
 - ["14citiesListTask17MapViewControllerC", "init"]
 - ["14citiesListTask17MapViewControllerC", "inject"]
-- ["14citiesListTask17MapViewControllerC", "mapView"]
 - ["14citiesListTask17MapViewControllerC", "presentCityLocationInMap"]
 - !private ["14citiesListTask17MapViewControllerC", "print"]
 - !private ["14citiesListTask17MapViewControllerC", "view"]
@@ -221,13 +215,11 @@ depends-member:
 - !private ["So8NSObjectC", "GMSMapView"]
 - !private ["So8NSObjectC", "GMSMarker"]
 - ["So8NSObjectC", "String"]
-- ["So8NSObjectC", "UIView"]
 - !private ["So8NSObjectC", "camera"]
 - ["So8NSObjectC", "cityLocationPresenter"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "inject"]
 - !private ["So8NSObjectC", "map"]
-- ["So8NSObjectC", "mapView"]
 - !private ["So8NSObjectC", "position"]
 - ["So8NSObjectC", "presentCityLocationInMap"]
 - !private ["So8NSObjectC", "print"]
@@ -336,12 +328,10 @@ depends-member:
 - !private ["So11UIResponderC", "GMSMapView"]
 - !private ["So11UIResponderC", "GMSMarker"]
 - ["So11UIResponderC", "String"]
-- ["So11UIResponderC", "UIView"]
 - ["So11UIResponderC", "cityLocationPresenter"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "inject"]
 - !private ["So11UIResponderC", "map"]
-- ["So11UIResponderC", "mapView"]
 - ["So11UIResponderC", "presentCityLocationInMap"]
 - !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "view"]
@@ -410,11 +400,9 @@ depends-member:
 - !private ["So16UIViewControllerC", "GMSMapView"]
 - !private ["So16UIViewControllerC", "GMSMarker"]
 - ["So16UIViewControllerC", "String"]
-- ["So16UIViewControllerC", "UIView"]
 - ["So16UIViewControllerC", "cityLocationPresenter"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "inject"]
-- ["So16UIViewControllerC", "mapView"]
 - ["So16UIViewControllerC", "presentCityLocationInMap"]
 - !private ["So16UIViewControllerC", "print"]
 - !private ["So16UIViewControllerC", "view"]
@@ -676,4 +664,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1e683e81da35a2e5a4e69328a0a07246"
+interface-hash: "a2b1506bc737ee29c9be2d4bc110c03e"
