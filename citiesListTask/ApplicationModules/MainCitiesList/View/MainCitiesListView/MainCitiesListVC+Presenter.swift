@@ -9,34 +9,29 @@
 import PKHUD
 import UIKit
 extension MainCitiesListVC: MainCitiesListView {
+    // method called to show a progress indicator to user until finish fetching data
     func dismissKeyBoard() {
         self.searchBar.resignFirstResponder()
     }
-    
-    func showfilteredCities(cityName: String) {
-        print(cityName)
-    }
-    
+    // method called to show a progress indicator to user until finish fetching data
     func showIndicator() {
         self.activityIndicator(isStart: true)
     }
-    
+    // method called to show a flash message to user
     func showMessage(message: String) {
         HUD.flash(.label(message), delay: 2.0)
     }
-    
+    // method called to hide progress indicator after finishing fetching data
     func hideIndicator() {
         self.activityIndicator(isStart: false)
     }
-    
+    // method called to reload cities after finishing fetching data
     func fetchingDataSuccess() {
         self.citiesTableView.reloadData()
     }
-    
-     // navigate to show  city location in map
+     // method called to navigate to show a map centered on the coordinates associated with the city.
     func goToShowMap(model: City) {
-        let storybord = UIStoryboard(name: "Map", bundle: nil)
-        let mapViewController = storybord.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        let mapViewController = AppStoryboard.Map.viewController(viewControllerClass: MapViewController.self)
         let city = model.name 
         let country = model.country
         mapViewController.title = "\(city), \(country)"

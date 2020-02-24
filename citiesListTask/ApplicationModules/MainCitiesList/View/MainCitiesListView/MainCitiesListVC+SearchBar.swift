@@ -9,11 +9,11 @@
 import UIKit
 
 extension MainCitiesListVC: UISearchBarDelegate {
-    // search bar design
+    // search bar design setup
     func setupSearchBar() {
         searchBar.delegate = self
         searchBar.barTintColor = UIColor.clear
-        searchBar.searchTextField.textColor = .white
+        searchBar.searchTextField.textColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
         searchBar.backgroundColor = UIColor.clear
         searchBar.isTranslucent = true
         searchBar.setBackgroundImage(UIImage(), for: .any, barMetrics: .default)

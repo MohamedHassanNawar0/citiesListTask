@@ -9,7 +9,6 @@
 import UIKit
 //MARK: - Base view controller to my view controller
 class BaseViewController: UIViewController {
-    
        override func viewDidAppear(_ animated: Bool) {
           self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
           self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -18,7 +17,6 @@ class BaseViewController: UIViewController {
           self.navigationController?.navigationBar.barTintColor = .black
           self.navigationController?.navigationBar.tintColor = .black
           self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)]
-
       }
     override var preferredStatusBarStyle: UIStatusBarStyle {
           return .darkContent

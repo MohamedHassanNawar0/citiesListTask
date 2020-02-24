@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//MARK: - SETUP CITY MODEl
 struct City: Decodable{
     var country : String
     var name : String

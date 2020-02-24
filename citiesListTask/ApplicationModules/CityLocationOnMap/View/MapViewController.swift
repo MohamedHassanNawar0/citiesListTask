@@ -10,21 +10,19 @@ import UIKit
 import GoogleMaps
 
 class MapViewController: BaseViewController {
-    //MARK: - OUTLETS
-    @IBOutlet weak var mapView : UIView!
+    //MARK: - VARIABLES
     private(set) var cityLocationPresenter: CityLocationInMap!
-
     //MARK: - Screen LifyCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         cityLocationPresenter.viewLoadData()
     }
-    
     //MARK: - helper methods
     func inject(cityLocationPresenter: CityLocationInMap) {
         self.cityLocationPresenter = cityLocationPresenter
     }
 }
+//MARK: - helper methods to show a map centered on the coordinates associated with the city.
 extension MapViewController: PresentCityLocationInMapView {
     func presentCityLocationInMap(latitude: String, longitude: String) {
         guard latitude != "" && longitude != "" else {return}
@@ -39,8 +37,5 @@ extension MapViewController: PresentCityLocationInMapView {
                 let marker = GMSMarker()
                 marker.position = CLLocationCoordinate2D(latitude: cityLatitude, longitude: cityLongitude)
                 marker.map = mapView
-
     }
-    
-    
 }

@@ -17,11 +17,12 @@ class MainCitiesListInteractor: APIServiceGetCitiesListProtocol {
     fileprivate let citiesListEndpoint = "http://assignment.pharos-solutions.de/cities.json?page="
     var pageNumber = 1
     fileprivate var citiesList = [City]()
-    fileprivate var didReachLastPage = false
+    var didReachLastPage = false
     
     // Simulate a long waiting for fetching Suggested Cities based on writing in search bar
     func getCitiesList(completionHundler: @escaping ([City]?, String?) -> Void) {
         guard  didReachLastPage == false else { return }
+        print("\(citiesListEndpoint)\(pageNumber)")
       NetworkRequest().Request(url: "\(citiesListEndpoint)\(pageNumber)", method: .get, parameters: nil, headers: nil){
             response , error in
             if response == nil && error == nil{

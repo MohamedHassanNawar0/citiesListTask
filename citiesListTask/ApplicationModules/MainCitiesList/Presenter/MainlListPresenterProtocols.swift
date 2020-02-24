@@ -16,11 +16,10 @@ protocol MainCitiesListView: class {
     func fetchingDataSuccess()
     func goToShowMap(model: City)
     func dismissKeyBoard()
-    func showfilteredCities(cityName: String)
 }
 
 protocol MainCitiesCellView {
     func displayCity(cityName: String)
-    func displayedImage(latitude:String , longitude: String)
+    func displayedImage(imageUrl:URL)
 }
 

@@ -38,6 +38,7 @@ class MainCitiesListVC: BaseViewController {
     func setupActivityIndicator() {
         activityIndicator.center = view.center
     }
+    // method used to show and hide a proggress activity indicator
     func activityIndicator (isStart : Bool){
         if isStart{
             view.addSubview(activityIndicator)
